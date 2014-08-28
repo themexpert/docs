@@ -1,5 +1,8 @@
 body {
+  font-family: 'Open Sans', sans-serif;
   padding-top: 50px;
+  font-size: 15px;
+  line-height: 1.4;
 }
 /*
  * Sidebar
@@ -28,7 +31,12 @@ body {
  * Main content
  */
 .main {
-  /* padding: 20px; */
+  padding: 20px;
+}
+.main p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 30px;
 }
 @media (min-width: 768px) {
   .main {
@@ -38,4 +46,14 @@ body {
 }
 .main .page-header {
   margin-top: 0;
+}
+/*
+ * Page Header
+ */
+.page-header {
+  border: 0;
+  font-size: 39px;
+  line-height: 1.4;
+  font-weight: 700;
+  text-align: center;
 }
