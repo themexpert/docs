@@ -30,6 +30,7 @@
     {% block javascripts %}
         {% do assets.add('theme://js/jquery-2.1.1.min.js',101) %}
         {% do assets.add('theme://js/modernizr.custom.71422.js',100) %}
+        {% do assets.add('theme://js/learn.js',100) %}
 
         {{ assets.js() }}
     {% endblock %}
@@ -52,15 +53,18 @@
             </div>
 
             <div class="navbar-collapse collapse" style="height: 1px;">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Settings</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Help</a></li>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Documentation</a></li>
+                <li><a href="#">Knowledgebase</a></li>
+                <li><a href="http://www.themexpert.com/forum">Ask Question</a></li>
               </ul>
-              <form class="navbar-form navbar-right">
-                <input type="text" class="form-control" placeholder="Search...">
-              </form>
+
+              <div class="searchbox">
+                <form class="navbar-form">
+                    <input type="text" class="form-control" placeholder="Search Documentation" data-search-input="{{ base_url_relative }}/search.json/query" />    
+                </form>
+              </div>
+
             </div>
         </div>    
     </header>
