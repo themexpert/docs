@@ -1,8 +1,8 @@
 home:
-  alias: '/home'
+  alias: '/get-started'
 
 pages:
-  theme: antimatter
+  theme: nimble
   markdown_extra: false
   process:
     markdown: true
