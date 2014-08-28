@@ -1,5 +1,5 @@
 {% macro loop(page, parent_loop) %}
-    {% for p in page.children %}    
+    {% for p in page.children %}
         {% if p.visible %}
         <li class="dd-item" data-nav-level='{{ data_level }}' data-nav-id="{{ p.route }}">
             <a href="{{ p.url }}">
@@ -10,7 +10,7 @@
                 </span>
             </a>
             {% if p.children.count > 0 %}
-            <ul>
+            <ul class="nav nav-sidebar">
                 {{ _self.loop(p, parent_loop) }}
             </ul>
             {% endif %}
@@ -19,7 +19,7 @@
     {% endfor %}
 {% endmacro %}
 
-<ul class="topics">
+<ul class="nav nav-sidebar">
     {{ _self.loop(pages, '') }}
 </ul>
 
