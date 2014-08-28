@@ -5,6 +5,7 @@ taxonomy:
 visible: true
 ---
 
+
 ##[Installation](#installation)
 Follow [fresh installation guideline](http://www.themexpert.com/documentation/expose-framework/getting-started) if you are having problem to install template
 
@@ -23,15 +24,22 @@ __Optional:__
 1. [Guru](http://guru.ijoomla.com/)
 2. [JomSocial](http://jomsocial.com/)
 3. [K2](http://getk2.org/)
+
 ##Template Settings
 To load factory settings of this template please open template settings and click `Configurator` button. Under `Load configurationbutton` you will see all available settings there and choose settings named as your template name. Then press load button and you're done!
 
-<img src="load-configuration.png" alt="load-configuration">
+![Sample Image](load-configuration.png)
+
+
 ##Homepage Settings
 The screenshot below shows you the modules we have published on the homepage of the demo site.
 
-<img src="home.jpg" alt="home">
+![Sample Image](home.jpg)
 
 ##Slideshow Settings
+This module is powered by our Xpert Slider and here are the settings.
 
+```
+Module Position: Slider
+```
 
