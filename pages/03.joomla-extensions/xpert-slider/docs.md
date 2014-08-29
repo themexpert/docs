@@ -1,12 +1,12 @@
 ---
-title: Xpert Gallery
+title: Xpert Slider
 taxonomy:
     category: docs
 visible: true
 ---
 
 ##Before you begin
-Parallax Slider doesn't work without some content, so the first thing you will need to do is create some articles or K2 items.
+Parallax Slider doesn't work without some content, so the first thing you will need to do is create some articles or K2 items. 
 
 If you have a Expert Explorer package that includes Xpert Scroller, you can view the demo content for an example.
 
@@ -29,6 +29,7 @@ Once you have your selection of content ready, you can then start to work with P
 **Title link :** Make article title linkable, it will link to the article.
 
 ###Intro Settings
+
 **Introtext :** Show or hide introtext
 
 **Limited by :** This option allow whether you limit introtext by word or character or no limitation.
@@ -49,7 +50,7 @@ Once you have your selection of content ready, you can then start to work with P
 **Image height:** Specify image height in ```px``` value. Do not enter px on the field.
 
 ##Joomla Article Settings
-![Joomla Article](joomla.jpg)
+![Joomla](joomla.jpg)
 
 **Category Filter :** Set whether article will fetch from all categories or specific categories.
 
@@ -62,7 +63,7 @@ Once you have your selection of content ready, you can then start to work with P
 **Featured Articles :** You can disable showing featured article or featured article only.
 
 ##K2 Article Settings
-![K2](k2.jpg)
+![joomla](joomla.jpg)
 
 **Category Filter :** Select all or specific category.
 
@@ -88,7 +89,7 @@ Once you have your selection of content ready, you can then start to work with P
 **Show Control :** Show or hide control arrow.
 
 ##Advanced Options
-![Style](style.jpg)
+![Advance](advance.jpg)
 
 **Alternative Layout :** Use a different layout from the supplied module or overrides in the template.
 
@@ -107,29 +108,36 @@ Once you have your selection of content ready, you can then start to work with P
 **Cache Time :** The time before the module is reached.
 
 ##Documentation & Support
-
 In this section you will get the documentation and support informations.
 
-![Suooprt](support.jpg)
+![Support](support.jpg)
 
 
 ##Troubleshooting
 <em>**Do i need jQuery?**</em>
-
 Yes this module requires it.
+
 
 <em>**Module not scrolling, why?**</em>
 
 This is possible for a few reasons. If jQuery is already included on your site by the template or another extension, then make sure to disable it in in Parallax Slider. Sometime another extension load jquery, make sure jquery loaded only once in header and top of all script.
 
+
 <em>**Image not showing, why?**</em>
+
 Make sure your image path is ok and you have no ```/``` beginning of your image path. For K2 article it looks for article image not image from introtext, so make sure you have article image for each article.
 
+
 <em>**Text not showing, why?**</em>
+
 Make sure you have some text in your article and you've turned on ```show introtext```&nbsp;option form module settings.
 
+
 <em>**I can't save or apply admin settings, why?**</em>
+
 We recommend to use Firefox 4+/Chrome/Safari/Opera for admin management. It has some problem saving settings from ```Internet Explorer```.
 
+
 <em>**Why do article open on the same page?**</em>
+
 When your articles or category of these article not assigned on menu item joomla will open article under home menu item. To avoide this you should create a menu item and assing a category for it, then you can hide the menu item.

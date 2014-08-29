@@ -1,3 +1,10 @@
+---
+title: Parallax Slider
+taxonomy:
+    category: docs
+visible: true
+---
+
 ##Before you begin
 Parallax Slider doesn't work without some content, so the first thing you will need to do is create some articles or K2 items.
 
