@@ -1,49 +1,55 @@
+---
+title: Xpert Gallery
+taxonomy:
+    category: docs
+visible: true
+---
+
 ##Before you begin
-Xpert Gallery doesn't work without some content, so the first thing you will need to do is create some articles or K2 items.
+Parallax Slider doesn't work without some content, so the first thing you will need to do is create some articles or K2 items.
 
-If you have a Expert Explorer package that includes Xpert Gallery, you can view the demo content for an example.
+If you have a Expert Explorer package that includes Xpert Scroller, you can view the demo content for an example.
 
-You should first create a new category or select one that you wish to display articles from. Then place new articles into it with your content. 
+You should first create a new category or select one that you wish to display articles from. Then place new articles into it with your content. Make sure to provide intro text and if you wish an image, as these are what is used to display the snippets.
 
-Make sure to provide intro text and image, as these are what is used to display the snippets. Once you have your selection of content ready, you can then start to work with Xpert Gallery.
+Once you have your selection of content ready, you can then start to work with Parallax Slider.
 
 ##General Settings
-![General](general.jpg)
+![general](general.jpg)
 
 **Content Source :&nbsp;**Choose your content source from where your content will come.
 
 **Maximum Items :** Maximum item you want to show.
 
-**Column :** Select the no. of columns.
+**Module Height :** Set module height in px value. Do not insert px in input box.
 
-###Filter and Sorting
-**Sort enabled :** This option allows users to sort the gallery items.
+###Title Settings
+**Item title :** Show or Hide item title.
 
-**Sort element :** Define the sort elements.
+**Title link :** Make article title linkable, it will link to the article.
 
-###Display Settings
-**Overview :** Show or hide overview informations of an item such as Title, Intro, Date etc.
-
-**Overview position :** Select the position of the overview.
-
-**Overview Style :** Select an overview style from our preset.
-
-**Overview elements :** Select the elements to show in overview panel.
-
+###Intro Settings
 **Introtext :** Show or hide introtext
 
-**Introtext limit :** Intro text charectar limit. Leave it blank to show all characters.
+**Limited by :** This option allow whether you limit introtext by word or character or no limitation.
+
+**Introtext limit :** Intro text charectar limit.
+
+**Readmore :** Show or hide readmore link.
+
+**On Click, Open in :** Select where the article open.
 
 ###Image Settings
-**Item resize :** Resize and crop image. Don't set it's size below 420px as it is the lowest device size. 
+**Item image :** Show or hide item image.
+
+**Image Position :** Select your image position for items.
 
 **Image width:** Specify image width in ```px``` value. Do not enter px on the field.
 
 **Image height:** Specify image height in ```px``` value. Do not enter px on the field.
 
-
 ##Joomla Article Settings
-![Joomla](joomla.jpg)
+![Joomla Article](joomla.jpg)
 
 **Category Filter :** Set whether article will fetch from all categories or specific categories.
 
@@ -56,7 +62,7 @@ Make sure to provide intro text and image, as these are what is used to display 
 **Featured Articles :** You can disable showing featured article or featured article only.
 
 ##K2 Article Settings
-![Advance](advance.jpg)
+![K2](k2.jpg)
 
 **Category Filter :** Select all or specific category.
 
@@ -70,8 +76,19 @@ Make sure to provide intro text and image, as these are what is used to display 
 
 **Time range :&nbsp;**Set time range if ordering is set to 'most popular' or 'most commented'.
 
+##Style Settings
+![Style](style.jpg)
+
+**Style :** Select the style theme you want to use. Custom will let you use your own customized style. Create parallax-slider.css file under your template/css folder and this option will load this style automatically.
+
+**Auto play :**&nbsp;When enabled the scrolling starts automatically upon page load.
+
+**Interval :**&nbsp;The time (in milliseconds) between autoscrolls.
+
+**Show Control :** Show or hide control arrow.
+
 ##Advanced Options
-![Advance](advance.jpg)
+![Style](style.jpg)
 
 **Alternative Layout :** Use a different layout from the supplied module or overrides in the template.
 
@@ -90,19 +107,29 @@ Make sure to provide intro text and image, as these are what is used to display 
 **Cache Time :** The time before the module is reached.
 
 ##Documentation & Support
+
 In this section you will get the documentation and support informations.
 
-![Support](support.jpg)
+![Suooprt](support.jpg)
+
 
 ##Troubleshooting
-**Do i need jQuery?**
+<em>**Do i need jQuery?**</em>
+
 Yes this module requires it.
 
-**Image not showing, why?**
-Make sure your image path is ok and you have no ```/``` beginning of your image path. For K2 article it looks for article image not image from introtext, so make sure you have article image for each article
+<em>**Module not scrolling, why?**</em>
 
-**Text not showing, why?**
-Make sure you have some text in your article and you've turned on ```show introtext``` &nbsp;option form module settings
+This is possible for a few reasons. If jQuery is already included on your site by the template or another extension, then make sure to disable it in in Parallax Slider. Sometime another extension load jquery, make sure jquery loaded only once in header and top of all script.
 
-***I can't save or apply admin settings, why?***
-We recommend to use Firefox 4+/Chrome/Safari/Opera for admin management. It has some problem saving settings from ```Internet Explorer```
+<em>**Image not showing, why?**</em>
+Make sure your image path is ok and you have no ```/``` beginning of your image path. For K2 article it looks for article image not image from introtext, so make sure you have article image for each article.
+
+<em>**Text not showing, why?**</em>
+Make sure you have some text in your article and you've turned on ```show introtext```&nbsp;option form module settings.
+
+<em>**I can't save or apply admin settings, why?**</em>
+We recommend to use Firefox 4+/Chrome/Safari/Opera for admin management. It has some problem saving settings from ```Internet Explorer```.
+
+<em>**Why do article open on the same page?**</em>
+When your articles or category of these article not assigned on menu item joomla will open article under home menu item. To avoide this you should create a menu item and assing a category for it, then you can hide the menu item.

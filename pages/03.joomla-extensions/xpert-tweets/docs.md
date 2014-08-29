@@ -1,3 +1,10 @@
+---
+title: Xpert Tweets
+taxonomy:
+    category: docs
+visible: true
+---
+
 ##Before you begin
 
 <div class="alert alert-warning">
