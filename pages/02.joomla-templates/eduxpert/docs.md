@@ -5,8 +5,8 @@ taxonomy:
 visible: true
 ---
 
+<h2 id="installation">Installation</h2>
 
-##[Installation](#installation)
 ----------
 Follow [fresh installation guideline](http://www.themexpert.com/documentation/expose-framework/getting-started) if you are having problem to install template.
 
@@ -18,14 +18,14 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
   <div class="panel-heading">Complimentary Extensions:</div>
 
   <!-- List group -->
-  <ul class="list-group">
-    <li class="list-group-item"><a href="http://www.themexpert.com/joomla-extensions/xpert-slider">Xpert Slider</a></li>
-    <li class="list-group-item"><a href="http://www.themexpert.com/joomla-extensions/xpert-tweets">Xpert Tweets</a></li>
-    <li class="list-group-item"><a href="http://www.themexpert.com/joomla-extensions/xpert-scroller">Xpert Scroller</a></li>
-    <li class="list-group-item"><a href="http://www.themexpert.com/joomla-extensions/xpert-contents">Xpert Contents</a></li>
-    <li class="list-group-item"><a href="http://www.themexpert.com/joomla-extensions/xpert-gallery">Xpert Gallery</a></li>
-    <li class="list-group-item"><a href="http://www.themexpert.com/joomla-extensions/xpert-access">Xpert Access</a></li>
-  </ul>
+  <div class="list-group">
+    <div><a  class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-slider">Xpert Slider</a></div>
+    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-tweets">Xpert Tweets</a></div>
+    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-scroller">Xpert Scroller</a></div>
+    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-contents">Xpert Contents</a></div>
+    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-gallery">Xpert Gallery</a></div>
+    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-access">Xpert Access</a></div>
+  </div>
 </div>
 	</div>
 	<div class="col-md-6">
@@ -33,31 +33,30 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
   <!-- Default panel contents -->
   <div class="panel-heading">Optional:</div>
   <!-- List group -->
-  <ul class="list-group">
-    <li class="list-group-item"><a href="http://guru.ijoomla.com">Guru</a></li>
-    <li class="list-group-item"><a href="http://jomsocial.com">JomSocial</a></li>
-    <li class="list-group-item"><a href="http://getk2.org">K2</a></li>
-  </ul>
+  <div class="list-group">
+    <div><a class="list-group-item" href="http://guru.ijoomla.com">Guru</a></div>
+    <div><a class="list-group-item" href="http://jomsocial.com">JomSocial</a></div>
+    <div><a class="list-group-item" href="http://getk2.org">K2</a></div>
+  </div>
 </div>
 	</div>
 </div>
+<h2 id="template_settings">Template Settings</h2>
 
-##[Template Settings](#template_settings)
 ----------
 To load factory settings of this template please open template settings and click `Configurator` button. Under `Load configurationbutton` you will see all available settings there and choose settings named as your template name. Then press load button and you're done!
 
 ![Sample Image](load-configuration.png)
 
+<h2 id="homepage_settings">Homepage</h2>
 
-##[Homepage Settings](#homepage_settings)
 ----------
 The screenshot below shows you the modules we have published on the homepage of the demo site.
 
 ![Sample Image](home.jpg)
 
+<h2 id="slideshow_settings">Slideshow Settings</h2>
 
-
-##[Slideshow Settings](#slideshow_settings)
 ----------
 This module is powered by our Xpert Slider and here are the settings.
 
@@ -67,7 +66,8 @@ Module Position: Slider
 
 ![Sample Image](xslider.jpg)
 
-##[Xpert Scroller - Testimonial](#xpert_scroller_testimonial)
+<h2 id="xpert_scroller_testimonial">Xpert Scroller - Testimonial</h2>
+
 ----------
 We've used our Xpert Scroller module for Testimonial, have a look on the settings.
 
@@ -77,8 +77,8 @@ Module Position: maintop-2
 
 ![Sample Image](xscroller-testimonial.jpg)
 
+<h2 id="Xpert_content_blog_settings">XpertContents - Latest Blogs Settings</h2>
 
-##[XpertContents - Latest Blogs Settings](#Xpert_content_blog_settings)
 ----------
 We've used Xpert Contents module here, have a look on the settings.
 
@@ -91,8 +91,7 @@ Module Class Suffix: guru-courses
 
 ![Sample Image](xcontents.jpg)
 
-
-##[Partner & Affiliates - Xpert Scroller Settings](#patner_affliate_setting)
+<h2 id="patner_affliate_setting">Partner & Affiliates - Xpert Scroller Settings</h2>
 ----------
 We've used our Xpert Scroller module here, have a look on the settings.
 
@@ -101,9 +100,8 @@ Module Position: main-bottom-1
 ```
 
 ![Sample Image](xscroller-partner.jpg)
+<h2 id="Login & Register - Xpert Access Settings">Login & Register - Xpert Access Settings</h2>
 
-
-##[Login & Register - Xpert Access Settings](#xpert_access_login_settings)
 ----------
 We've used our Xpert Access module here, have a look on the settings.
 
@@ -113,9 +111,9 @@ Module Position: roof-3
 
 ![Sample Image](xaccess.jpg)
 
+<h2 id="xpert_image_gallery">Image Gallery - Xpert Gallery</h2>
 
 
-##[Image Gallery - Xpert Gallery](#xpert_image_gallery_)
 ----------
 We've used our Xpert Gallery module here, have a look on the settings.
 
@@ -125,11 +123,11 @@ Module Position: gallery
 
 ![Sample Image](xgallery.jpg)
 
+<h2 id="3rd_party_module">3rd-Party Module Settings</h2>
 
-##__3rd-Party Module Settings__
 ----------
+<h3 id="guru_courses">Find Your Course - Guru Courses</h3>
 
-##[Find Your Course - Guru Courses](#guru_courses)
 ----------
 We've used Guru Courses module here, have a look on the settings.
 
@@ -142,9 +140,9 @@ Module Class Suffix: guru-courses
 ![Sample Image](guru-courses.jpg)
 
 
+<h3 id="k2_events">Events - K2 Contents</h3>
 
 
-##[Events - K2 Contents](#k2_events)
 ----------
 We've used K2 Contents module here, have a look on the settings.
 
@@ -154,8 +152,8 @@ Module Position: sidebar-b
 ```
 ![Sample Image](k2-content.jpg)
 
+<h3 id="logo_add">Adding logo in EduXpert based sites</h3>
 
-##[Adding logo in EduXpert based sites](#logo_add)
 ----------
 Please, follow these steps to add logo in EduXpert template based sites:
 
