@@ -37,16 +37,29 @@ This module only fetch tweets from user or search term so its not required to ha
 ##Module Settings
 
 - **Consumer key:** follow previous section to get the consumer key
+
 - **Consumer secret:** follow previous section to get the consumer secret
+ 
 - **Access token:** follow previous section to get the access token
+
 - **Access token secret:** follow previous section to get the access token secret
+
 - **Layout:** Select a layout horizontal/vertical.
+
 - **Style:** Select any pre-build style.
+
 - **Max# tweets:** Number of tweets you want to show.
+
 - **Show tweets from:** You can show tweets from any user or search terms define below.
+
 - **Tweet term:** This field is will only work if tweets source is selected is 'search'
+
 - **Show profile:** Show profile of user. This will only work if tweets source is selected as 'user'
+
 - **Profile image:** You can show profile image for the user.
+
 - **Show time:** Show/hide tweets time.
+
 - **Show source:** Show/hide tweets source.
+
 - **Cache time:** Due to twitter api limit you must set a high - cache time(ms).
