@@ -27,6 +27,32 @@ body {
     border-right: 1px solid #eee;
   }
 }
+.page-sidebar {
+  padding: 0 20px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.page-sidebar .panel-heading {
+  font-weight: 700;
+  color: #8C8C8C;
+}
+.page-sidebar .panel-heading .fa {
+  float: right;
+}
+.page-sidebar .list-group-item {
+  padding: 6px 8px;
+}
+.page-sidebar .list-group-item:hover {
+  background: #f8f8f8;
+}
+.page-sidebar .nav > li > a {
+  padding: 0;
+  font-size: 14px;
+  color: #707070;
+}
+.page-sidebar .nav > li > a:hover {
+  background: transparent;
+}
 /*
  * Main content
  */

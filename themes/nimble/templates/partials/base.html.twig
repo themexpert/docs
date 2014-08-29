@@ -19,7 +19,6 @@
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
-    
     {% block stylesheets %}
         {% do assets.add('theme://css/bootstrap.min.css') %}
         {% do assets.add('theme://css/font-awesome.min.css') %}
@@ -29,16 +28,17 @@
     {% endblock %}
 
     {% block javascripts %}
-        {% do assets.add('theme://js/jquery-2.1.1.min.js',101) %}
-        {% do assets.add('theme://js/modernizr.custom.71422.js',100) %}
-        {% do assets.add('theme://js/learn.js',100) %}
+        {% do assets.add('theme://js/jquery-2.1.1.min.js') %}
+        {% do assets.add('theme://js/modernizr.custom.71422.js') %}
+        {% do assets.add('theme://js/bootstrap.min.js') %}
+        {% do assets.add('theme://js/learn.js') %}
 
         {{ assets.js() }}
     {% endblock %}
 
     {% endblock %}
 </head>
-<body class="searchbox-hidden {{ page.header.body_classes }}" data-url="{{ page.route }}">
+<body class="searchbox-hidden {{ page.header.body_classes }}" data-url="{{ page.route }}" data-spy="scroll" data-target=".page-sidebar">
     
     {% block header %}
     <header class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -80,9 +80,7 @@
             {% endblock %}
 
             {% block body %}
-            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                 {% block content %}{% endblock %}
-            </div>
             {% endblock %}
         </div>
     </div>
