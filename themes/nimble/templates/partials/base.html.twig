@@ -17,12 +17,13 @@
     <link rel="alternate" type="application/rss+xml" href="{{ base_url_absolute}}/feed:rss" title="RSS Feed" />
     <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicon.png">
 
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+    
     {% block stylesheets %}
         {% do assets.add('theme://css/bootstrap.min.css') %}
         {% do assets.add('theme://css/font-awesome.min.css') %}
         {% do assets.add('theme://css/nimble.css') %}
-        
-        
 
         {{ assets.css() }}
     {% endblock %}
