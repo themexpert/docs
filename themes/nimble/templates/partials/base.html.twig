@@ -19,7 +19,6 @@
 
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
-    
     {% block stylesheets %}
         {% do assets.add('theme://css/bootstrap.min.css') %}
         {% do assets.add('theme://css/font-awesome.min.css') %}
@@ -80,9 +79,7 @@
             {% endblock %}
 
             {% block body %}
-            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                 {% block content %}{% endblock %}
-            </div>
             {% endblock %}
         </div>
     </div>

@@ -55,6 +55,18 @@ function getScrollBarWidth () {
 
 
 jQuery(document).ready(function(){
+
+  //Create Page Sidebar
+  if( $('.page-sidebar').length > 0 )
+  {
+    var sidebar = $('.page-sidebar .list-group');
+    $('.main h2').each(function(){
+      var link = $(this).html();
+
+      sidebar.append(link);
+      sidebar.find('a').addClass('list-group-item');
+    });
+  }
   var sidebarStatus = searchStatus = 'open';
   var font = 'sans';
 
