@@ -42,14 +42,14 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
 	</div>
 </div>
 
-##Template Settings
+##[Template Settings](#template_settings)
 ----------
 To load factory settings of this template please open template settings and click `Configurator` button. Under `Load configurationbutton` you will see all available settings there and choose settings named as your template name. Then press load button and you're done!
 
 ![Sample Image](load-configuration.png)
 
 
-##Homepage Settings
+##[Homepage Settings](#homepage_settings)
 ----------
 The screenshot below shows you the modules we have published on the homepage of the demo site.
 
@@ -57,7 +57,7 @@ The screenshot below shows you the modules we have published on the homepage of 
 
 
 
-##Slideshow Settings
+##[Slideshow Settings](#slideshow_settings)
 ----------
 This module is powered by our Xpert Slider and here are the settings.
 
@@ -67,7 +67,7 @@ Module Position: Slider
 
 ![Sample Image](xslider.jpg)
 
-##Xpert Scroller - Testimonial
+##[Xpert Scroller - Testimonial](#xpert_scroller_testimonial)
 ----------
 We've used our Xpert Scroller module for Testimonial, have a look on the settings.
 
@@ -78,7 +78,7 @@ Module Position: maintop-2
 ![Sample Image](xscroller-testimonial.jpg)
 
 
-##XpertContents - Latest Blogs Settings
+##[XpertContents - Latest Blogs Settings](#Xpert_content_blog_settings)
 ----------
 We've used Xpert Contents module here, have a look on the settings.
 
@@ -88,10 +88,11 @@ Module Position: contenttop-1
 ```
 Module Class Suffix: guru-courses
 ```
+
 ![Sample Image](xcontents.jpg)
 
 
-##Partner & Affiliates - Xpert Scroller Settings
+##[Partner & Affiliates - Xpert Scroller Settings](#patner_affliate_setting)
 ----------
 We've used our Xpert Scroller module here, have a look on the settings.
 
@@ -102,7 +103,7 @@ Module Position: main-bottom-1
 ![Sample Image](xscroller-partner.jpg)
 
 
-##Login & Register - Xpert Access Settings
+##[Login & Register - Xpert Access Settings](#xpert_access_login_settings)
 ----------
 We've used our Xpert Access module here, have a look on the settings.
 
@@ -114,7 +115,7 @@ Module Position: roof-3
 
 
 
-##Image Gallery - Xpert Gallery
+##[Image Gallery - Xpert Gallery](#xpert_image_gallery_)
 ----------
 We've used our Xpert Gallery module here, have a look on the settings.
 
@@ -128,7 +129,7 @@ Module Position: gallery
 ##__3rd-Party Module Settings__
 ----------
 
-##Find Your Course - Guru Courses
+##[Find Your Course - Guru Courses](#guru_courses)
 ----------
 We've used Guru Courses module here, have a look on the settings.
 
@@ -143,7 +144,7 @@ Module Class Suffix: guru-courses
 
 
 
-##Events - K2 Contents
+##[Events - K2 Contents](#k2_events)
 ----------
 We've used K2 Contents module here, have a look on the settings.
 
@@ -154,7 +155,7 @@ Module Position: sidebar-b
 ![Sample Image](k2-content.jpg)
 
 
-##Adding logo in EduXpert based sites
+##[Adding logo in EduXpert based sites](#logo_add)
 ----------
 Please, follow these steps to add logo in EduXpert template based sites:
 
