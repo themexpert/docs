@@ -63,8 +63,8 @@ jQuery(document).ready(function(){
     $('.main h2').each(function(){
       var link = $(this).html();
 
-      sidebar.append(link);
-      sidebar.find('a').addClass('list-group-item');
+      sidebar.append('<li class="list-group-item">'+link+'</li>');
+      // sidebar.find('a').addClass('list-group-item');
     });
   }
   var sidebarStatus = searchStatus = 'open';
