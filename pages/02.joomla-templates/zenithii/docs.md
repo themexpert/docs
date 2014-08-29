@@ -5,7 +5,8 @@ taxonomy:
 visible: true
 ---
 
-##[Installation](#installation)
+
+<h2 id="installation">Installation</h2>
 ----------
 Follow [fresh installation guideline](http://www.themexpert.com/documentation/expose-framework/getting-started) if you are having problem to install template.
 
@@ -17,14 +18,14 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
   <div class="panel-heading">Complimentary Extensions</div>
 
   <!-- List group -->
-  <ul class="list-group">
-    <li class="list-group-item"><a href="http://www.themexpert.com/joomla-extensions/xpert-gallery">Xpert Gallery</a></li>
-    <li class="list-group-item"><a href="http://www.themexpert.com/joomla-extensions/xpert-accordion">Xpert Accordion</a></li>
-    <li class="list-group-item"><a href="http://www.themexpert.com/joomla-extensions/xpert-tabs">Xpert Tabs</a></li>
+  <div class="list-group">
+    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-gallery">Xpert Gallery</a></div>
+    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-accordion">Xpert Accordion</a></div>
+    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-tabs">Xpert Tabs</a></div>
 
  
  
-  </ul>
+  </div>
 </div>
 	</div>
 	<div class="col-md-6">
@@ -32,32 +33,35 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
   <!-- Default panel contents -->
   <div class="panel-heading">Optional Extensions</div>
   <!-- List group -->
-  <ul class="list-group">
-    <li class="list-group-item"><a href="http://stackideas.com/easyblog">EasyBlog</a></li>
-    <li class="list-group-item"><a href="http://stackideas.com/easydiscuss">EasyDiscuss</a></li>
-  </ul>
+  <div class="list-group">
+    <div><a class="list-group-item" href="http://stackideas.com/easyblog">EasyBlog</a></div>
+    <div><a class="list-group-item" href="http://stackideas.com/easydiscuss">EasyDiscuss</a></div>
+  </div>
 </div>
 	</div>
 </div>
-##[Template Settings](#template_settings)
+
+<h2 id="template_settings">Template Settings</h2>
 ----------
 To load factory settings of this template please open template settings and click `Configurator` button. Under `Load configurationbutton` you will see all available settings there and choose settings named as your template name. Then press load button and you're done!
 
 ![Sample Image](load-configuration.png)
 
-##[Homepage Settings](#homepage_settings)
+<h2 id="homepage_settings">Homepage Settings</h2>
+
 ----------
 The screenshot below shows you the modules we have published on the homepage of the demo site.
 
 ![Sample Image](zenithii.jpg)
 
-##[Gallery Settings](#gallery_settings)
+<h2 id="gallery_settings">Gallery Settings</h2>
+
 ----------
 This module is powered by our Xpert Gallery and here are the settings.
 
 ![Sample Image](xpertgallery.jpg)
+<h2 id="tabs_settings">Tabs Settings</h2>
 
-##[Tabs Settings](#tabs_settings)
 ----------
 We've used Xpert Tabs module here, have a look on the settings.
 
