@@ -40,7 +40,9 @@ body{
 	}
 	.list-group-item{
 		padding: 6px 8px;
-		&:hover{ background: #f8f8f8;}
+		&:not(.active):hover{ background: #f8f8f8;}
+
+		&.child a{ font-size: 12px; padding-left: 12px; }
 	}
 	.nav>li>a{ 
 		padding: 0; 
@@ -48,6 +50,7 @@ body{
 		color: #707070;
 		&:hover{ background: transparent; }
 	}
+	.nav > li.active >a { color: #fff; }
 }
 /*
  * Main content
@@ -60,6 +63,7 @@ body{
 	line-height: 1.7;
 	margin-bottom: 30px; 
 	}
+	h1,h2,h3{ padding-top: 60px; }
 }
 @media (min-width: 768px) {
   .main {

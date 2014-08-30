@@ -53,6 +53,13 @@ function getScrollBarWidth () {
 
 })(jQuery,'smartresize');
 
+// Get a ref value to use in href and id in doc
+function getRefFromText(text)
+{
+  var ref = text.trim().toLowerCase().replace(' & ','-').replace(' ', '-').replace('/','-').replace(' ', '-');
+
+  return ref;
+}
 
 jQuery(document).ready(function(){
 
@@ -60,13 +67,20 @@ jQuery(document).ready(function(){
   if( $('.page-sidebar').length > 0 )
   {
     var sidebar = $('.page-sidebar .list-group');
-    $('.main h2').each(function(){
-      var link = $(this).html();
+    $('.main h2, .main h3').each(function(){
 
-      sidebar.append('<li class="list-group-item">'+link+'</li>');
-      // sidebar.find('a').addClass('list-group-item');
+      var text = $(this).text(),
+          ref = getRefFromText( text ),
+          link = '<a href="#'+ref+'">' + text + '</a>';
+      // Add id to each h2
+      $(this).attr('id',ref);
+      // Append link to sidebar
+      var klass = ( $(this).prop("tagName") == 'H3' ) ? ' child' : '';
+      sidebar.append('<li class="list-group-item'+ klass +'">'+link+'</li>');
     });
   }
+
+
   var sidebarStatus = searchStatus = 'open';
   var font = 'sans';
 
