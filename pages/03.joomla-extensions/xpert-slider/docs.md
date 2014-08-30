@@ -5,139 +5,128 @@ taxonomy:
 visible: true
 ---
 
-##Before you begin
-Parallax Slider doesn't work without some content, so the first thing you will need to do is create some articles or K2 items. 
+##Before You Begin
+Xpert Slider doesn't work without some content, so the first thing you will need to do is create some Joomla or K2 or Easyblog. If you have a Expert Explorer package that includes Xpert Slider, you can view the demo content for an example.
 
-If you have a Expert Explorer package that includes Xpert Scroller, you can view the demo content for an example.
+You should first create a new category or select one that you wish to display images from. Then place new images into it with your content. Make sure to provide text if you wish to show some descriptions of image, as these are what is used to display the snippets.
 
-You should first create a new category or select one that you wish to display articles from. Then place new articles into it with your content. Make sure to provide intro text and if you wish an image, as these are what is used to display the snippets.
+Once you have your selection of images ready, you can then start to work with Xpert Slider.
 
-Once you have your selection of content ready, you can then start to work with Parallax Slider.
+##Data Source Settings
+In this section you will specify the source of the data.
 
-##General Settings
-![general](general.jpg)
+![data-source](data-source.jpg)
 
-**Content Source :&nbsp;**Choose your content source from where your content will come.
+**Content Source:**Select source of content. Base of your selection the next tab will load
 
-**Maximum Items :** Maximum item you want to show.
+**Maximum Items:**Number of items to show.
 
-**Module Height :** Set module height in px value. Do not insert px in input box.
-
-###Title Settings
-**Item title :** Show or Hide item title.
-
-**Title link :** Make article title linkable, it will link to the article.
+**Item Title :** This option allow you to show or hide article title.
 
 ###Intro Settings
+**Introtext:**This option allow whether you want to show introtext or not.
 
-**Introtext :** Show or hide introtext
+**Limited by:**This option allow whether you limit introtext by word or character or no limitation.
 
-**Limited by :** This option allow whether you limit introtext by word or character or no limitation.
+**Introtext Limit: **Set introtext character or word limit.
 
-**Introtext limit :** Intro text charectar limit.
-
-**Readmore :** Show or hide readmore link.
-
-**On Click, Open in :** Select where the article open.
-
-###Image Settings
-**Item image :** Show or hide item image.
-
-**Image Position :** Select your image position for items.
-
-**Image width:** Specify image width in ```px``` value. Do not enter px on the field.
-
-**Image height:** Specify image height in ```px``` value. Do not enter px on the field.
+**Title Link:** Set whether title will be linkable or not.
 
 ##Joomla Article Settings
-![Joomla](joomla.jpg)
+After selecting joomla as the content source this settings section will load.
 
-**Category Filter :** Set whether article will fetch from all categories or specific categories.
-
-**Category :** This option will only show if you set select in the Category Filter option. You can specify single or multiple categories here.
-
-**Order :** Sort your article by selected order.
-
-**Filter by Authors :** Filter all articles by authors.
-
-**Featured Articles :** You can disable showing featured article or featured article only.
-
-##K2 Article Settings
 ![joomla](joomla.jpg)
 
 **Category Filter :** Select all or specific category.
 
-**Categories :** This option will only show if you set select in the Category Filter option. You can specify single or multiple categories here.
+**Category :** Choose specific category.
 
-**Children Categories :** This option allow you to fetch item from any clildren category you've selected.
+**Order :** Select your article sorting order.
 
-**Item Ordering :** Select your article sorting order.
+**Filter by Authors :** If you want to show articles from specified authors, make your selection.
 
-**Featured Items :&nbsp;**You can disable showing featured article or featured article only.
+**Featured Articles :** You can disable showing of featured articles or show only featured articles.
 
-**Time range :&nbsp;**Set time range if ordering is set to 'most popular' or 'most commented'.
+##K2 Article Settings
+This section will only load if you have K2 installed and selected content source is K2.
+![k2](k2.jpg)
 
-##Style Settings
-![Style](style.jpg)
+**Category Filter :** Select all or specific category from all the article will come.
 
-**Style :** Select the style theme you want to use. Custom will let you use your own customized style. Create parallax-slider.css file under your template/css folder and this option will load this style automatically.
+**Categories :** Choose specific category.
 
-**Auto play :**&nbsp;When enabled the scrolling starts automatically upon page load.
+**Children Categories :** This option allow you to fetch item from any children category you’ve selected.
 
-**Interval :**&nbsp;The time (in milliseconds) between autoscrolls.
+**Item Ordering:** Select the way your item will sort.
 
-**Show Control :** Show or hide control arrow.
+**Featured Items :** Make your choice whether you want to disable showing of featured items or show only the featured items.
 
-##Advanced Options
-![Advance](advance.jpg)
+**Time Range :** If ordering is set to ‘most popular’ or ‘most commented’ then you can set the time range.
 
-**Alternative Layout :** Use a different layout from the supplied module or overrides in the template.
+##Interface Settings
+In this section you can set how your slideshow will look. Make your choice and build a perfect one.
 
-**Module suffix :** This allows you to apply a unique CSS style to this module, if you desire and have the style set in the template.
+![interface](interface.jpg)
 
-**Automatic Module Id :** If you have multiple Xpert Scroller module in one page this option will add a unique module id to each.
+**Lens :** Lens defines how to render the slideshow in frontend.
+**Show Controller :** Set whether controller will show on hover or always.
+**Navigation Type :** Select which way you want to show the navigation.
+**Loader Style :** Specify the loader style.
+**Position :** Set the position where the loader will load.
+**Image Height :** Set image height in px value. Do not insert px in input box.
+**Thumbnail Settings :** Width and height of thumbnail in px value. Do not insert px in input box.
 
-**Module Id :&nbsp;**If you want to assign module id by yourself then ```Disable``` Automatic Module Id and insert your own id.
+##Behavior Settings
+![behavior](behavior.jpg)
 
-**Load jQuery :&nbsp;**This option allow you to enable or disable loading jquery on your site. If your template already load jQuery then disable this option otherwise you should enable it.
+**Effects :** You can use more than one effect.
+**Transition :** Choose how the sliding effects take on.
+**Time :** Milliseconds between the end of the sliding effect and the start of the next one.
+**Transition Period :** Length of the sliding effect in milliseconds.
+**Autoplay :** When enabled the sliding starts automatically.
+**Caption Animation :** Select caption animation style.
 
-**jQuery Source :&nbsp;**This option allow you to load jQuery form 2 source, Google CDN or from Module Core. We recommend to user ```Google CDN``` for live site because it will load faster and save your bandwidth, for local testing/development you can load jQuery ```From Module Core```
+##Advance
+![advance](advance.jpg)
 
-**Caching :** Select whether to cache the content of the module.
+**Module Suffix :** A suffix to be applied to the css class of the module. This allows for individual module styling.
 
-**Cache Time :** The time before the module is reached.
+**Automatic Module ID:** If you have multiple Xpert Slider module in one page this option will add a unique module id to each.
+
+**Module ID:** If you want to assign module id by yourself then <code>Disable</code> Automatic Module Id and insert your own id.
+
+**Load jQuery :** This option allow you to enable or disable loading jquery on your site. If your template already load jquery then disable this otherwise you should enable it.
+
+**jQuery Source :** Select jQuery source. Google CDN is recommended for live site.
+
+**Caching :** Select whether to cache the content of this module.
+
+**Cache Time :** The time before the module is recached.
 
 ##Documentation & Support
 In this section you will get the documentation and support informations.
 
-![Support](support.jpg)
-
+![support](support.jpg)
 
 ##Troubleshooting
 <em>**Do i need jQuery?**</em>
-Yes this module requires it.
 
+Yes this module require it.
 
-<em>**Module not scrolling, why?**</em>
+<em>**Module Keep loading, why?**</em>
 
-This is possible for a few reasons. If jQuery is already included on your site by the template or another extension, then make sure to disable it in in Parallax Slider. Sometime another extension load jquery, make sure jquery loaded only once in header and top of all script.
+This is possible for a few reasons. If jQuery is already included on your site by the template or another extension, then make sure to disable it in in XpertCaptions. Sometime another extension load jquery, make sure jquery loaded only once in header and top of all script.
 
 
 <em>**Image not showing, why?**</em>
 
-Make sure your image path is ok and you have no ```/``` beginning of your image path. For K2 article it looks for article image not image from introtext, so make sure you have article image for each article.
+Make sure your image path is ok and you have no **/** beginning of your image path. For K2 article it looks for article image not image from introtext, so make sure you have article image for each article.
 
 
 <em>**Text not showing, why?**</em>
-
-Make sure you have some text in your article and you've turned on ```show introtext```&nbsp;option form module settings.
+Make sure you have some text in your article and you've turned on **show introtext**&nbsp;option form module settings.
 
 
 <em>**I can't save or apply admin settings, why?**</em>
 
-We recommend to use Firefox 4+/Chrome/Safari/Opera for admin management. It has some problem saving settings from ```Internet Explorer```.
-
-
-<em>**Why do article open on the same page?**</em>
-
-When your articles or category of these article not assigned on menu item joomla will open article under home menu item. To avoide this you should create a menu item and assing a category for it, then you can hide the menu item.
+We recommend to use Firefox 4+/Chrome/Safari/Opera for admin management. It has some problem saving settings from **Internet Explorer**.
