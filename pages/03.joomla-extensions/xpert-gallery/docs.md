@@ -98,6 +98,7 @@ Once you have your selection of content ready, you can then start to work with X
 
 ##Documentation & Support
 In this section you will get the documentation and support informations.
+
 ![support](support.jpg)
 
 
