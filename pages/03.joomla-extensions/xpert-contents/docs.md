@@ -107,7 +107,7 @@ Xpert Contents comes with 2 columns which will help you to present your articles
 
 **Number of items :** Maximum number of items to show.
 
-**Item Flow : **Item flow typically refer how item will present in this column, horizontal way or vertical.
+**Item Flow :** Item flow typically refer how item will present in this column, horizontal way or vertical.
 
 **Item per flow : **How many articles you want to show per flow. example: you've entered 6 in number of items field and 2 in item per flow field, then your item will separate with 3 flow each contain 2 article.
 
@@ -150,13 +150,20 @@ Xpert Contents comes with 2 columns which will help you to present your articles
 Yes this module require it.
 
 <em>**Article not scrolling, why?**</em>
+
 This is possible for a few reasons. If jQuery is already included on your site by the template or another extension, then make sure to disable it in in XpertContents. Sometime another extension load jquery, make sure jquery loaded only once in header and top of all script.
 
+
 <em>**Image not showing, why?**</em>
+
 Make sure your image path is ok and you have no **/** beginning of your image path. For K2 article it looks for article image not image from introtext, so make sure you have article image for each article.
 
+
 <em>**Text not showing, why?**</em>
+
 Make sure you have some text in your article and you've turned on **show introtext**&nbsp;option form module settings.
 
+
 <em>**I can't save or apply admin settings, why?**</em>
+
 We recommend to use Firefox 4+/Chrome/Safari/Opera for admin management. It has some problem saving settings from **Internet Explorer**.
