@@ -62,7 +62,7 @@ After selecting joomla as the content source this settings section will load.
 ##K2 Article Settings
 This section will only load if you have K2 installed and selected content source is K2.
 
-![K2](K2.jpg)
+![K2](k2.jpg)
 
 **Category Filter :** Select all or specific category from all the article will come.
 
