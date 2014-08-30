@@ -1,16 +1,12 @@
 {% macro loop(page, parent_loop) %}
     {% for p in page.children %}
         {% if p.visible %}
-        <li class="dd-item" data-nav-level='{{ data_level }}' data-nav-id="{{ p.route }}">
-            <a href="{{ p.url }}">
-                <i class="read-icon icon-check"></i>
-                <i class="bookmark-icon icon-star"></i>
-                <span>
-                    {{ p.menu }}
-                </span>
-            </a>
+        {% set ref = p.menu|replace(' ','-')|lower %}
+        <li class="dd-item" data-nav-id="{{ p.route }}">
+            <a href="{{ p.url }}">{{ p.menu }}</a>
+
             {% if p.children.count > 0 %}
-            <ul class="nav nav-sidebar">
+            <ul class="nav" id="{{ref}}">
                 {{ _self.loop(p, parent_loop) }}
             </ul>
             {% endif %}
@@ -19,10 +15,11 @@
     {% endfor %}
 {% endmacro %}
 
-<ul class="nav nav-sidebar">
+<ul id="accordion" class="nav nav-sidebar">
     {{ _self.loop(pages, '') }}
 </ul>
-
+<!-- 
 <hr />
 <a href="#" data-clear-history-toggle><i class="icon-back-in-time"></i> Clear History</a><br />
 <a href="#" data-clear-bookmark-toggle><i class="icon-star"></i> Clear Bookmarks</a><br />
+ -->

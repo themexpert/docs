@@ -56,7 +56,7 @@ function getScrollBarWidth () {
 // Get a ref value to use in href and id in doc
 function getRefFromText(text)
 {
-  var ref = text.trim().toLowerCase().replace(' & ','-').replace(' ', '-').replace('/','-').replace(' ', '-');
+  var ref = text.trim().toLowerCase().replace(' & ','-').replace(' ', '-').replace('/','-').replace(' ', '-').replace("'",'');
 
   return ref;
 }
