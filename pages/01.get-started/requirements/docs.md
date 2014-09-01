@@ -1,5 +1,5 @@
 ---
-title: EduXpert
+title: Requirements
 taxonomy:
     category: docs
 visible: true
@@ -27,4 +27,4 @@ The back-end administration requirements of Expose in order of preference are as
 - Opera 9+
 - Internet Explorer 8+
 
-<p class="alert alert-error">NOTE: Internet Explorer 6 is NOT supported in the administration side of Expose. The JavaScript and CSS requirements are such that they demand the use of a modern browser. Also please note that Internet Explorer 7 and even Internet Explorer 8 have very slow JavaScript implementations and are not really recommended if at all possible.</p>
+<p class="alert alert-danger">NOTE: Internet Explorer 6 is NOT supported in the administration side of Expose. The JavaScript and CSS requirements are such that they demand the use of a modern browser. Also please note that Internet Explorer 7 and even Internet Explorer 8 have very slow JavaScript implementations and are not really recommended if at all possible.</p>
