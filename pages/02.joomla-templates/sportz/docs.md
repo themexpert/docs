@@ -5,7 +5,7 @@ taxonomy:
 visible: true
 ---
 
-<h2 id="installation">Installation</h2>
+##Installation
 ----------
 Follow [fresh installation guideline](http://www.themexpert.com/documentation/expose-framework/getting-started) if you are having problem to install template.
 
@@ -39,13 +39,13 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
 	</div>
 </div>
 
-<h2 id="template_settings">Template Settings</h2>
+##Template Settings
 ----------
 To load factory settings of this template please open template settings and click `Configurator` button. Under `Load configurationbutton` you will see all available settings there and choose settings named as your template name. Then press load button and you're done!
 
 ![Sample Image](load-configuration.png)
 
-<h2 id="homepage_settings">Homepage Settings</h2>
+##Homepage Settings
 
 ----------
 The screenshot below shows you the modules we have published on the homepage of the demo site.
@@ -53,7 +53,7 @@ The screenshot below shows you the modules we have published on the homepage of 
 ![Sample Image](home.jpg)
 
 
-<h2 id="slideshow_settings">Slideshow Settings</h2>
+##Slideshow Settings
 ----------
 This module is powered by our Xpert Slider and here are the settings.
 
@@ -63,8 +63,7 @@ Module Position: Slider
 
 ![Sample Image](slider.jpg)
 
-<h2 id="scroller_settings">Scroller Settings</h2>
-
+##Scroller Settings
 ----------
 We've used our Xpert Scroller module here, have a look on the settings.
 
@@ -74,7 +73,7 @@ Module Position: Utility-2
 
 ![Sample Image](scroller.jpg)
 
-<h2 id="latest-news-settings">Latest News Settings</h2>
+##Latest News Settings
 
 ----------
 We've used Xpert Contents module here, have a look on the settings.
@@ -95,7 +94,7 @@ Module Position: Feature-1
 
 ![Sample Image](editors-choice.jpg)
 
-<h2 id="news_events_settings">News Events Settings</h2>
+##News Events Settings
 
 ----------
 We've used Xpert Contents module here, have a look on the settings.
@@ -105,7 +104,7 @@ Module Position: Mainbottom-1
 
 ![Sample Image](news-events.jpg)
 
-<h2 id="featured_post_settings">Featured Post Settings</h2>
+##Featured Post Settings
 
 ----------
 This module is powered by K2 Contents and here are the settings.
