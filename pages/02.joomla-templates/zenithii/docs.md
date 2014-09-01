@@ -5,8 +5,7 @@ taxonomy:
 visible: true
 ---
 
-
-<h2 id="installation">Installation</h2>
+##Installation
 ----------
 Follow [fresh installation guideline](http://www.themexpert.com/documentation/expose-framework/getting-started) if you are having problem to install template.
 
@@ -41,20 +40,19 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
 	</div>
 </div>
 
-<h2 id="template_settings">Template Settings</h2>
+##Template Settings
 ----------
 To load factory settings of this template please open template settings and click `Configurator` button. Under `Load configurationbutton` you will see all available settings there and choose settings named as your template name. Then press load button and you're done!
 
 ![Sample Image](load-configuration.png)
 
-<h2 id="homepage_settings">Homepage Settings</h2>
-
+##Homepage Settings
 ----------
 The screenshot below shows you the modules we have published on the homepage of the demo site.
 
 ![Sample Image](zenithii.jpg)
 
-<h2 id="gallery_settings">Gallery Settings</h2>
+##Gallery Settings
 
 ----------
 This module is powered by our Xpert Gallery and here are the settings.
