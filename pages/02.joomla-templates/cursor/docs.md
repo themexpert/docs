@@ -33,7 +33,7 @@ To load factory settings of this template please open template settings and clic
 
 ##Homepage Settings
 ----------
-Daily Edition Homepage fully based on modules, and we turned on component disable for the Homepage, to do this go to
+Cursor Homepage fully based on modules, and we turned on component disable for the Homepage, to do this go to
 ```Extensions → Template Manager → Tx_Parallax → Advance```
 And turn on `Component Disable` option and enter your Home page menu id.
 
