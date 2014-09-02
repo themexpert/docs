@@ -77,7 +77,7 @@ This module is powered by Xpert Slider and here is the settings.
 <p>This module is powered by Xpert Captions and here are the settings.</p>
 
 ![xpert slider settings](xpertcaptions.jpg)
-<p><img src="images/docs/crisp/xpertcaptions.jpg" alt="xpert slider settings" /></p>
+
 
 ##Tab settings
 
