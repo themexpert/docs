@@ -53,41 +53,41 @@ The screenshot below shows you the modules we have published on the homepage of 
 - **Scroller:** Xpert Scroller module published in main-bottom-1 position. You can see a screenshot of the specific configuration below.
 - **Date:** Date is a gist published in fixed position.
 ##Menu settings
-
+----------
 ![menu settings](menu_settings.jpg)
 
 ##Layout Settings
-
+----------
 ![layout settings](layout_settings.jpg)
 
 ##Gist Settings
-
+----------
 ![gist settings](gist_settings.jpg)
 
 ##Module Positions
-
+----------
 ![module positions](module_positions.png)
 
 ##Slideshow Settings
-
+----------
 This module is powered by our Xpert Scroller and here is the required settings.
 
 ![slideshow settings](xpertscroller_slideshow_settings.jpg)
 
 ##News ticker Settings
-
+----------
 This module is powered by our Xpert Scroller and here is the required settings.
 
 ![news ticker settings](xpertscroller_newsticker_settings.jpg)
 
 ##Scroller Settings
-
+----------
 This module is powered by our Xpert Scroller and here is the required settings.
 
 ![xpertscroller settings](xpertscroller_settings.jpg)
 
 ##Xpert Access Settings
-
+----------
 This module is powered by our Xpert Access and here is the required settings.
 
 ![xpertaccess settings](xpertaccess_settings.jpg)

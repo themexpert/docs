@@ -34,6 +34,7 @@ To load factory settings of this template please open template settings and clic
 
 
 ##Homepage Settings
+----------
 Maximus Homepage fully based on modules, and we turned on component disable for the Homepage, to do this go to
 ```Extensions → Template Manager → Tx_Maximus → Advance```
 And turn on <code>Component Disable</code> option and enter your Home page menu id.
@@ -45,10 +46,11 @@ The screenshot below shows you the modules we have published on the homepage of 
 
 
 ##Module Positions
-
+----------
 ![Expose Module Positions](https://s3.amazonaws.com/expose/positions_map.jpg)
 
 ##Slideshow Settings
+----------
 This module is powered by our Parallax Slider and here is the settings.
 
 ![parallax slidersettings](parallaxslider1.png)
@@ -60,6 +62,7 @@ This module is powered by our Parallax Slider and here is the settings.
 
 
 ##Scroller Settings
+----------
 This module is powered by our Xpert Scroller and here is the settings.
 
 ![xpert scroller settings](scroller-settings1.png)
@@ -72,10 +75,12 @@ This module is powered by our Xpert Scroller and here is the settings.
 
 
 ##Showcase Settings
+----------
 This module is powered by Xpert Showcase but it is deprecated now. You can use Xpert Gallery instead of it. Here is the required settings.
 ![xpertshowcase settings](xpertshowcase.jpg)
 
 
 ##Tweets settings
+----------
 This module is powered by our Xpert Tweets and here is the settings.
 ![Xpert tweets settings](xperttweets.png)

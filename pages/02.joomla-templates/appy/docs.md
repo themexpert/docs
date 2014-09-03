@@ -47,7 +47,7 @@ The screenshot below shows you the modules we have published on the homepage of 
 In Appy we've implemented Scrollspy which listens to page scrolling and triggers events based on the scroll position. For example, if you scroll down a page and an element appears for the first time in the viewport you can trigger a smooth animation to fade in the element.
 
 ###Available Effects
-
+----------
 - Fade
 - Scale Up
 - Scale Down
@@ -57,6 +57,7 @@ In Appy we've implemented Scrollspy which listens to page scrolling and triggers
 - Slide Right
 
 ###How to use
+----------
 It is very easy to use these effects. Just you have to add an animation class and a data type. For example in order to have "Scale Up" effect in a div just have a look on the following markup.
 
 ```

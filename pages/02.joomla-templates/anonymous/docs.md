@@ -34,6 +34,7 @@ To load factory settings of this template please open template settings and clic
 ![Sample Image](load-configuration.png)
 
 ##Homepage Settings
+----------
 Matheno Homepage fully based on modules, and we turned on component disable for the Homepage, to do this go to
 ```Extensions → Template Manager → Tx_Parallax → Advance```
 And turn on `Component Disable` option and enter your Home page menu id.
@@ -44,23 +45,24 @@ The screenshot below shows you the modules we have published on the homepage of 
 
 ![Parallax homepage](home.jpg)
 ##Module Positions
-
+----------
 ![Expose Module Positions](https://s3.amazonaws.com/expose/positions_map.jpg)
 
 ##Slideshow settings
-
+----------
 This module is powered by Xpert Slider and here is the settings
 
 ![xpert slider settings](xpert-slider.jpg)
 
 
 ##Showcase settings
+----------
 We used Xpert Showcase here which is deprecated now, you may use Xpert Gallery instead of it. Have a look on the required settings
 
 ![Xpert showcase settings](xpertshowcase-settings.jpg)
 
 ##Tab settings
-
+----------
 <p>This module is powered by Xpert Tabs and here is the settings</p>
 
 ![Xpert Tabs settings](xpert-tabs.jpg)
