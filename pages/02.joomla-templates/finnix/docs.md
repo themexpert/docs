@@ -37,13 +37,13 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
 </div>
 
 ##Template Settings
-
+----------
 To load factory settings of this template please open template settings and click `Configurator` button. Under `Load configuration` button you will see all available settings there and choose settings named as your template name. Then press load button and you're done!
 
 ![Load Configuration](load-configuration.png)
 
-Homepage Settings
-
+##Homepage Settings
+----------
 Finnix Homepage fully based on modules, and we turned off component display for the Homepage, to do this go to 
 ```Extensions → Template Manager → Tx_Finnix → Advance```
 And turn on <code>Component Disable</code> option and enter your Home page menu id.
@@ -55,17 +55,17 @@ The screenshot below shows you the modules we have published on the homepage of 
 ![finnix homepage](finnix_homepage.jpg)
 
 ##Module Positions
-
+----------
 ![Themexpert Template Module Positions](https://s3.amazonaws.com/expose/positions_map.jpg)
 
 ##Slideshow Settings
-
+----------
 We used our powerful Xpert Slider here for slideshow and have a look on the required settings.
 
 ![Themexpert Template Module Positions](xpert-slider.jpg)
 
 ##Scroller Settings
-
+----------
 This module is powered by our Xpert Scroller and here is the settings.
 
 
@@ -73,6 +73,7 @@ This module is powered by our Xpert Scroller and here is the settings.
 
 
 ##Tab settings
+----------
 This module is powered by our Xpert Tabs and here is the settings.
 
 ![xperttabs setting](xpert-tab.jpg)

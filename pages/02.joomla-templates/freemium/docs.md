@@ -36,7 +36,7 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
 </div>
 
 ##Homepage Settings
-
+----------
 The screenshot below shows you the modules we have published on the homepage of the demo site. Please see the explanation below regarding the usage and any other relevant information of the modules.
 
 ![Freemium homepage](freemium_homepage.jpg)
@@ -54,16 +54,17 @@ The screenshot below shows you the modules we have published on the homepage of 
 
 
 ##Module Positions
-
+----------
 ![module positions](module_positions.png)
 
 ##Scroller Settings
-
+----------
 This module is powered by Xpert Scroller and here is the settings.
 
 ![slideshow settings](xpertscroller_setting.jpg)
 
 ##Captions Settings
+----------
 We used our Xpert Captions module here and following is the required settings.
 
 ![xpertcaptions settings](xpertcaption_setting.jpg)
