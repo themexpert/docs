@@ -1,5 +1,5 @@
 ---
-title: Module Explain Settings
+title: Module Styles Settings
 taxonomy:
     category: docs
 visible: true
