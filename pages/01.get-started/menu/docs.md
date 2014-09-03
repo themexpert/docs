@@ -7,9 +7,11 @@ visible: true
 
 ## Menu Control Explained
 
+Menu control need to be enable to show menu on your website. If you want to build a menu less page you can turned this OFF.
+
 ![Menu Control Explained](menu-settings1.jpg)
 
-Menu control need to be enable to show menu on your website. If you want to build a menu less page you can turned this OFF. Menu type is to determine what type of menu the menu system will render and which menu group from Menu name settings. Select the right module position for the menu
+Menu type is to determine what type of menu the menu system will render and which menu group from Menu name settings. Select the right module position for the menu
 
 ![Menu Style Dropdown](menu-settings2.jpg)
 
