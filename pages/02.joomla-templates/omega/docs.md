@@ -35,7 +35,7 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
 	</div>
 </div>
 ##Homepage Settings
-
+----------
 The screenshot below shows you the modules we have published on the homepage of the demo site. Please see the explanation below regarding the usage and any other relevant information of the modules.
 
 ![Omega homepage](omega_homepage.jpg)
@@ -51,21 +51,21 @@ The screenshot below shows you the modules we have published on the homepage of 
 - **Custome HTML module:** Footer1-5, sidebar-left and sidebar-right custom HTML module.
 
 ##Layout Settings
-
+----------
 ![layout settings](layout_settings.jpg)
 
 ##Module Positions
-
+----------
 ![module positions](module_positions.png)
 
 ##Slideshow settings
-
+----------
 We used our Xpert Scroller here and have a look on the settings
 
 ![module positions](xpertscroller_settings.jpg)
 
 ##Captions settings
-
+----------
 This module is powered by Xpert Captions and here is the settings.
 
 ![xpertcaptions settings](xpertcaptions_settings.jpg)
