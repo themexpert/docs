@@ -1,5 +1,5 @@
 ---
-title: Omega
+title: freemium
 taxonomy:
     category: docs
 visible: true
@@ -18,8 +18,8 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
 
   <!-- List group -->
   <div class="list-group">
-    <div><a class="list-group-item" href="http://www.themexpert.com/joomla/extensions/xpert-captions">Xpert Scroller</a></div>
-    <div><a class="list-group-item" href="http://www.themexpert.com/joomla/extensions/xpert-tabs" >Xpert Captions</a> </div>
+    <div><a class="list-group-item" href="http://www.themexpert.com/joomla/extensions/xpert-scroller">Xpert Scroller</a></div>
+    <div><a class="list-group-item" href="http://www.themexpert.com/joomla/extensions/xpert-captions">Xpert Captions</a></div>
   </div>
 </div>
 	</div>
@@ -34,38 +34,39 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
 </div>
 	</div>
 </div>
-##Homepage Settings
 
+##Homepage Settings
+----------
 The screenshot below shows you the modules we have published on the homepage of the demo site. Please see the explanation below regarding the usage and any other relevant information of the modules.
 
-![Omega homepage](omega_homepage.jpg)
+![Freemium homepage](freemium_homepage.jpg)
 
 **Explain:**
-
-- **Logo:** This is a custom HTML module published to header-1 module position using module class suffix: `logo nostyle`. Write this below code on your editor(remove the / from href) otherwise your logo won’t appear, <pre>&lt;a href=""&gt;Omega&lt;/a&gt;</pre> 
+- **Logo:** This is a custom HTML module published to header-1 module position using module class suffix: ```logo nostyle``` Write this below code on your editor(remove the / from href) otherwise your logo won’t appear, 
+<pre class="prettyprint">&lt;a href=""&gt;Freemium&lt;/a&gt;</pre>
 ***Make sure you turn off the editor to no-editor mode from Global Configuration.***
 
 - **Menu:** The menu is rendered via the core Joomla menu module, and the menu options are controlled via the template. This menu is using module class suffix: `tx-menu`
 - **Slideshow:** Xpert Scroller module is published in top-1. You can see a screenshot of the specific configuration below.
-- **Xpert Captions:** Xpert Captions module published in feature-1 position. You can see a screenshot of the specific configuration below.
-- **Custome HTML module:** Footer1-5, sidebar-left and sidebar-right custom HTML module.
-
+- **Xpert Captions:** Xpert Captions module published in main-top-1 position. You can see a screenshot of the specific configuration below.
 ##Layout Settings
-
 ![layout settings](layout_settings.jpg)
 
-##Module Positions
 
+##Module Positions
+----------
 ![module positions](module_positions.png)
 
-##Slideshow settings
+##Scroller Settings
+----------
+This module is powered by Xpert Scroller and here is the settings.
 
-We used our Xpert Scroller here and have a look on the settings
+![slideshow settings](xpertscroller_setting.jpg)
 
-![module positions](xpertscroller_settings.jpg)
+##Captions Settings
+----------
+We used our Xpert Captions module here and following is the required settings.
 
-##Captions settings
+![xpertcaptions settings](xpertcaption_setting.jpg)
 
-This module is powered by Xpert Captions and here is the settings.
 
-![xpertcaptions settings](xpertcaptions_settings.jpg)
