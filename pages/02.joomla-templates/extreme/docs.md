@@ -55,6 +55,7 @@ The screenshot below shows you the modules we have published on the homepage of 
 
 
 ##Module Positions
+----------
 ![Expose Module Positions](positions_map.jpg)
 
 ##Slideshow Settings
@@ -70,11 +71,13 @@ This module is powered by our Xpert Scroller and here are the settings.
 ![xpert scroller settings](scroller.jpg)
 
 ##News Ticker Settings 
+----------
 This module is powered by our Xpert Scroller and here is the settings.
 ![xpert scroller settings](scroller-news.jpg)
 
 
 ##Recently Listed Settings
+----------
 This module is powered by our Xpert Scroller and here is the settings.
 ![xpert scroller settings](scroller-recently.jpg)
 
@@ -85,12 +88,13 @@ We've used Xpert Tabs module here, have a look on the settings.
 ![xpert-tab](xperttab.jpg)
 
 ##Tab(game-review) Settings
+----------
 This module is powered by our Xpert Tabs and here is the settings.
 ![xpert-tab](xperttab-mainbottom.jpg)
 
 
 ##Gallery Settings
-
+----------
 We used our powerful and feature-rich Image gallery module Xpert Gallery here and have a look on the settings.
 
 ![xpert gallery settings](xpertgallery.jpg)

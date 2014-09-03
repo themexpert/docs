@@ -20,7 +20,7 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
   <div class="list-group">
     <div><a class="list-group-item" href="http://www.themexpert.com/joomla/extensions/xpert-scroller">Xpert Scroller</a></div>
   </div>
-</div>
+
 	</div>
 	<div class="col-md-6">
 		<div class="panel panel-default">
@@ -60,14 +60,15 @@ The screenshot below shows you the modules we have published on the homepage of 
 - **Custome HTML module:** Feature1-5, Footer1-5 custom HTML module.
 
 ##Layout Settings
-
+----------
 ![layout settings](layout_settings.jpg)
 
 ##Module Positions
+----------
 ![module positions](module_positions.png)
 
 ##Slideshow Settings
-
+----------
 This module is powered by our Xpert Scroller and here is the settings.
 
 ![slideshow setting](xpertscroller_settings.jpg)

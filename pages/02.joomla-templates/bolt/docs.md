@@ -44,7 +44,7 @@ The screenshot below shows you the modules we have published on the homepage of 
 The screenshot below shows you the modules we have published on the homepage of the demo site.
 
 ###Available Effects
-
+----------
 - Fade
 - Scale Up
 - Scale Down
@@ -54,7 +54,7 @@ The screenshot below shows you the modules we have published on the homepage of 
 - Slide Right
 
 ###How to use
-
+----------
 It is very easy to use these effects. Just you have to add an animation class and a data type. For example in order to have "Scale Up" effect in a div just have a look on the following markup.
 
 ```

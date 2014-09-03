@@ -55,46 +55,46 @@ The screenshot below shows you the modules we have published on the homepage of 
 ![Crisp homepage](home.jpg)
 
 ##Module Positions
-
+----------
 ![positions_map](https://s3.amazonaws.com/expose/positions_map.jpg)
 
 ##Access settings
-
+----------
 This module is powered by Xpert Access and here are the settings.
 
 ![xpert access settings](xpertaccess.jpg)
 
 
 ###Slideshow Settings
-
+----------
 This module is powered by Xpert Slider and here is the settings.
 
 ![xpert slider settings](xpertslider.jpg)
 
 
 ##Captions settings
-
+----------
 <p>This module is powered by Xpert Captions and here are the settings.</p>
 
 ![xpert slider settings](xpertcaptions.jpg)
 
 
 ##Tab settings
-
+----------
 This module is powered by Xpert Tabs and here are the settings.
 
 ![Xpert Tabs settings](xperttabs.jpg)
 
 
 ##Tweets settings
-
+----------
 Here are the settings for our twitter module Xpert Tweets.
 
 ![Xpert tweets settings](xperttweets.jpg)
 
 
 ##Scroller settings
-
+----------
 This module is powered by Xpert Scroller and here are the settings.
 
 

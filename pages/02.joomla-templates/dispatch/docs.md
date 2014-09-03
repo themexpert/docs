@@ -65,43 +65,44 @@ The screenshot below shows you the modules we have published on the homepage of 
 - **Xpert Captions:** Xpert Captions module published in feature-2 and footer-4 positions. You can see a screenshot of the specific configuration below.
 
 ##Layout Settings
-
+----------
 ![layout settings](layout_settings.jpg)
 
 ##Typography Settings
-
+----------
 
 ![typo settings](typo_settings.jpg)
 
 ##Advance Settings
-
+----------
 ![advance settings](advance_settings.jpg)
 
 ##Module Positions
-
+----------
 ![module positions](module_positions.png)
 
 ##Scroller settings
-
+----------
 This module is powered by Xpert Scroller and here is the settngs.
 
 ![slideshow settings](slideshow_settings.jpg)
 
 ##Featured-work Settings
-
+----------
 We used our Xpert Captions module here and have a look on the settings.
 
 ![xpert captions settings for featured module](xpertcaptions_featured_settings.jpg)
 
 
 ##Image Gallery Settings
+----------
 This module is powered by Xpert Captions and here is the settngs.
 
 ![xpertcaptions settings for image gallery](xpertcaptions_gallery_settings.jpg)
 
 
 ##Wordpress for Joomla Layout override
-
+----------
 <p>We've changed some code on default twentyten theme provided by corePHP's Wodpress for Joomla package. To get exact same look and feel like demo download <code>loop.php</code> file from <code>Dispatch</code> download directory and upload it to</p>
 
 ```
