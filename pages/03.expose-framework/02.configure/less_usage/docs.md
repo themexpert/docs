@@ -1,3 +1,10 @@
+---
+title: LESS & it's usage
+taxonomy:
+    category: docs
+visible: true
+---
+
 ## What is LESS
 LESS is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins, functions and many other techniques that allow you to make CSS that is more maintainable, themeable and extendable. (Learn more: [http://lesscss.org/](http://lesscss.org/))
 
