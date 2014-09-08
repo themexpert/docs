@@ -4,3 +4,8 @@ author:
   email: 'joe@test.com'
 description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
 
+taxonomies: [category,tag]
+
+github:
+  tree: https://github.com/themexpert/docs/blob/master/
+  commits: https://github.com/themexpert/docs/commits/master

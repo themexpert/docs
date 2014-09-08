@@ -8,6 +8,12 @@
 				{{ page.content }}
 			</p>
 		</div>
+		{% block footer %}
+		<blockquote id="github-contrib">
+		    <i class="fa fa-github"></i> Found errors? Think you can improve this documentation? Please <a href="{{ site.github.tree ~  ('/'~page.filePathClean)|replace({'/user/':''}) }}">edit this page</a>. 
+		</blockquote>
+		{% endblock %}
     </div>
 </div>
 {% endblock %}
+

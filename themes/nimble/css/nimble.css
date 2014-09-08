@@ -5,6 +5,14 @@ body {
   line-height: 1.4;
   background: #f5f5f5;
 }
+blockquote {
+  margin: 1.7rem 0;
+  padding-left: .85rem;
+  background: #D2EBFA;
+  border-left: 10px solid #0392D6;
+  color: #444;
+  font-size: 15px;
+}
 /*
  * Header
  */
@@ -49,8 +57,11 @@ body {
   }
   .nav-sidebar ul > li > a {
     font-size: 13px;
-    padding-left: 30px;
+    padding-left: 20px;
     color: #707070;
+  }
+  .nav-sidebar ul ul > li > a {
+    padding-left: 30px;
   }
 }
 .page-sidebar {
@@ -80,7 +91,8 @@ body {
   font-size: 14px;
   color: #707070;
 }
-.page-sidebar .nav > li > a:hover {
+.page-sidebar .nav > li > a:hover,
+.page-sidebar .nav > li > a:focus {
   background: transparent;
 }
 .page-sidebar .nav > li.active > a {
