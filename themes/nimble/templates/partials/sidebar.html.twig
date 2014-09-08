@@ -3,7 +3,10 @@
         {% if p.visible %}
         {% set ref = p.menu|replace(' ','-')|lower %}
         <li class="dd-item" data-nav-id="{{ p.route }}">
-            <a href="{{ p.url }}">{{ p.menu }}</a>
+            <a href="{{ p.url }}">
+                {{ p.menu }}
+                <i class="fa fa-check"></i>
+            </a>
 
             {% if p.children.count > 0 %}
             <ul class="nav" id="{{ref}}">
