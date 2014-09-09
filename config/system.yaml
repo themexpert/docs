@@ -1,5 +1,5 @@
 home:
-  alias: 'expose-framework/get-started'
+  alias: 'expose/basics'
 
 pages:
   theme: nimble

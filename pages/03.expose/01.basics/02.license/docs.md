@@ -1,5 +1,5 @@
 ---
-title: License
+title: License & Usages
 taxonomy:
     category: docs
 visible: true
