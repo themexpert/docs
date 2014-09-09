@@ -22,6 +22,7 @@
     {% block stylesheets %}
         {% do assets.add('theme://css/bootstrap.min.css') %}
         {% do assets.add('theme://css/font-awesome.min.css') %}
+        {% do assets.add('//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/zenburn.min.css') %}
         {% do assets.add('theme://css/nimble.css') %}
 
         {{ assets.css() }}
@@ -31,6 +32,7 @@
         {% do assets.add('theme://js/jquery-2.1.1.min.js') %}
         {% do assets.add('theme://js/modernizr.custom.71422.js') %}
         {% do assets.add('theme://js/bootstrap.min.js') %}
+        {% do assets.add('//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js') %}
         {% do assets.add('theme://js/learn.js') %}
 
         {{ assets.js() }}
@@ -85,7 +87,10 @@
         </div>
     </div>
 
-    
-    
+    <script>
+    $(function () {
+        hljs.initHighlightingOnLoad();
+    });
+    </script>
  </body>
 </html>

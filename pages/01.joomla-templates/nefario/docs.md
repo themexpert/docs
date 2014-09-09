@@ -37,7 +37,7 @@ Title part comes with `ITL Feature` module along with font awesome and published
 
 Title part comes with custom html module and published on position name `feature-bottom.` Check the html code:
 
-<textarea style="width: 550px; height: 180px";>
+```
 <div class="feature-list">
 	<span class="fa fa-paper-plane-o fa-3x"> </span>
 	<div class="feature-content">
@@ -45,7 +45,7 @@ Title part comes with custom html module and published on position name `feature
 		<p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus</p>
 	</div>
 </div>
-</textarea>
+```
 ###Portfolio
 
 ![Nafario Porftfolio](portfolio.jpg)
@@ -104,9 +104,9 @@ We used News Show Pro Gk5 to present Latest News from K2 with module class suffi
 
 This part comes by shortcode. Image dimension is 600px X 600px. Below the html of shortcode:
 
-<textarea style="width: 550px; height: 80px";>
+```
 {gallery}itl_demo/gallery{/gallery}
-</textarea>
+```
 
 ###Feature Tab
 
@@ -120,74 +120,75 @@ It comes by RokSprokcet module with Joomla article. At first create a category M
 
 ![feature-tab-config](feature-tab-config.jpg)
 
-<textarea style="width: 450px; height: 100px";>
+```
 <span class="fa fa-magic main-tab-icon">&nbsp;</span>
 <span class="main-tab-content">
-<h3>Easily Customizable Theme</h3>
-<p>Quisque vestibulum posuere gnissim tincidunt</p>
+	<h3>Easily Customizable Theme</h3>
+	<p>Quisque vestibulum posuere gnissim tincidunt</p>
 </span>
-</span>
-</textarea>
+```
 
 ###Team Members
 
 Its an article in nefario-demo category.See the shown code below
 
-<textarea style="width: 650px; height: 500px";>
+```
 <div class="col-xs-12 col-sm-6 col-md-3">
-<div class="staff-member">
-<div class="staff-member-image"><img class="img-responsive" src="images/itl_demo/team/team-member5-big.jpg" border="0" alt="Staff Member" /></div>
-<div class="staff-member-name">
-<h4>Lance Dorgan</h4>
-<p>Art Director</p>
+	<div class="staff-member">
+		<div class="staff-member-image"><img class="img-responsive" src="images/itl_demo/team/team-member5-big.jpg" border="0" alt="Staff Member" /></div>
+		<div class="staff-member-name">
+		<h4>Lance Dorgan</h4>
+		<p>Art Director</p>
+		</div>
+		<div class="staff-member-description">
+		<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+		</div>
+		<div class="staff-member-social">
+		<ul class="list-inline">
+		<li>
+		<div class="icon-wrapper"><a class="tooltip-on" href="http://www.facebook.com" title="Facebook"><em class="fa fa-facebook"> </em></a></div>
+		</li>
+		<li>
+		<div class="icon-wrapper"><a class="tooltip-on" href="http://www.twitter.com" title="Twitter"><em class="fa fa-twitter"> </em></a></div>
+		</li>
+		<li>
+		<div class="icon-wrapper"><a class="tooltip-on" href="http://www.google.com" title="GooglePlus"><em class="fa fa-google-plus"> </em></a></div>
+		</li>
+		<li>
+		<div class="icon-wrapper"><a class="tooltip-on" href="http://www.linkedin.com" title="Linkedin"><em class="fa fa-linkedin"> </em></a></div>
+		</li>
+		</ul>
+		</div>
+	</div>
 </div>
-<div class="staff-member-description">
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-</div>
-<div class="staff-member-social">
-<ul class="list-inline">
-<li>
-<div class="icon-wrapper"><a class="tooltip-on" href="http://www.facebook.com" title="Facebook"><em class="fa fa-facebook"> </em></a></div>
-</li>
-<li>
-<div class="icon-wrapper"><a class="tooltip-on" href="http://www.twitter.com" title="Twitter"><em class="fa fa-twitter"> </em></a></div>
-</li>
-<li>
-<div class="icon-wrapper"><a class="tooltip-on" href="http://www.google.com" title="GooglePlus"><em class="fa fa-google-plus"> </em></a></div>
-</li>
-<li>
-<div class="icon-wrapper"><a class="tooltip-on" href="http://www.linkedin.com" title="Linkedin"><em class="fa fa-linkedin"> </em></a></div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</textarea>
+```
 
 
 ###Pricing Table
 
 Its an article in nefatio-demo category. See the shown code below
 
-<textarea style="width: 650px; height: 350px";>
+```
 <div class="col-md-3 col-xs-12">
-<div class="package">
-<div class="package-header bg">
-<h5>Basic</h5>
+	<div class="package">
+		<div class="package-header bg">
+			<h5>Basic</h5>
+		</div>
+		<div class="price">
+			<h4><span class="dollar-sign">$</span>15</h4>
+			<span class="price-meta"> / mo </span>
+		</div>
+	<ul>
+		<li><span class="fa fa-check"> </span>100GB Storage</li>
+		<li><span class="fa fa-check"> </span>All Themes</li>
+		<li><span class="fa fa-times"> </span>Access to Tutorials</li>
+		<li><span class="fa fa-times"> </span>Auto Backup</li>
+		<li><span class="fa fa-times"> </span>Extended Security</li>
+	</ul>
+	<a class="btn btn-primary pricing-btn" href="#"> Sign Up </a>
+	</div>
 </div>
-<div class="price">
-<h4><span class="dollar-sign">$</span>15</h4>
-<span class="price-meta"> / mo </span></div>
-<ul>
-<li><span class="fa fa-check"> </span>100GB Storage</li>
-<li><span class="fa fa-check"> </span>All Themes</li>
-<li><span class="fa fa-times"> </span>Access to Tutorials</li>
-<li><span class="fa fa-times"> </span>Auto Backup</li>
-<li><span class="fa fa-times"> </span>Extended Security</li>
-</ul>
-<a class="btn btn-primary pricing-btn" href="#"> Sign Up </a></div>
-</div>
-</textarea>
+```
 
 
 ###T3 Documenation with video link
