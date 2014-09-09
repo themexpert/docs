@@ -64,14 +64,16 @@ blockquote {
     padding-left: 30px;
   }
   .nav-sidebar i {
-    display: none;
     float: right;
     font-size: 13px;
     min-width: 16px;
     margin: 0;
+  }
+  .nav-sidebar .fa-check {
+    display: none;
     color: #4FCB51;
   }
-  .nav-sidebar ul li.visited i {
+  .nav-sidebar ul li.visited .fa-check {
     display: inline;
   }
 }

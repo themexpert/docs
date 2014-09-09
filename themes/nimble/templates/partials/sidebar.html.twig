@@ -3,13 +3,19 @@
         {% if p.visible %}
         {% set ref = p.menu|replace(' ','-')|lower %}
         <li class="dd-item" data-nav-id="{{ p.route }}">
-            <a href="{{ p.url }}">
-                {{ p.menu }}
+            
+            {% if p.children.count > 0 %}
+            <a data-toggle="collapse" data-parent="#accordion" href="#{{ref}}" class="collapse">
+                <i class="fa fa-caret-down"></i>
+            {% else %}
+            <a href="{{p.url}}">
                 <i class="fa fa-check"></i>
+            {% endif %}
+                {{ p.menu }}
             </a>
 
             {% if p.children.count > 0 %}
-            <ul class="nav" id="{{ref}}">
+            <ul class="nav collapse {% if 'expose-framework' in ref %}in {% endif %}" id="{{ref}}">
                 {{ _self.loop(p, parent_loop) }}
             </ul>
             {% endif %}
@@ -18,7 +24,7 @@
     {% endfor %}
 {% endmacro %}
 
-<ul class="nav nav-sidebar">
+<ul class="nav nav-sidebar" id="accordion">
     {{ _self.loop(pages, '') }}
 </ul>
 <!-- 
