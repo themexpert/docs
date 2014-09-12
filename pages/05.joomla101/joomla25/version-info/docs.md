@@ -1,5 +1,5 @@
 ---
-title: Version information 
+title: Version Information 
 taxonomy:
     category: docs
 visible: true
