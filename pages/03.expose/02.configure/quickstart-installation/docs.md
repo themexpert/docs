@@ -15,7 +15,7 @@ The step by step process for installing a Quickstart on a cpanel server using Jo
 1. After downloading you can then unzip and upload the package contents to your server using any type of FTP(file transfer protocol) client. Or if you have shell access then you can upload the zip file and can extract it in the zip directly on your server. The second process is more faster! In this example we are going to unzip the package on our local server or localhost.
 1. After that you need to navigate to the folder that you uploaded your Expert Explorer to. Your url might look like this ```http://www.mysite.com/joomla/index.php```
 1. Once the page opens it should look something like the image below. You can select any language from the language list. Fill out the site name, email, admin name and password. After that please click on Next button.
-
+     
 ![main configuration](joomla3-setting1.jpg)
 
 ## Database Configuration
