@@ -9,7 +9,7 @@ visible: true
 XScrollbar is a Joomla! plugin for custom browser Scrollbars. It gives a consistent look browser scrollbar. XScrollbar based on most popular NiceScroll jQuery plugin. You can customize your browser Scrollbar without writing a single line of code.
 
 ## Xscrollbar Settings
-![scrollbar-settings](scrollbar-settings.png)
+![xscrollbar-settings](xscrollbar-settings.png)
 
 **Scroll Bar Color :** Select a Color by Color Picker.
 
