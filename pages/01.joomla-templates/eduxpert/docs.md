@@ -134,9 +134,7 @@ We've used Guru Courses module here, have a look on the settings.
 ```
 Module Position: feature-1
 ```
-```
-Module Class Suffix: guru-courses
-```
+
 ![Sample Image](guru-courses.jpg)
 
 
