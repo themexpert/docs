@@ -15,7 +15,7 @@
             </a>
 
             {% if p.children.count > 0 %}
-            <ul class="nav collapse {% if 'expose-framework' in ref %}in {% endif %}" id="{{ref}}">
+            <ul class="nav collapse" id="{{ref}}">
                 {{ _self.loop(p, parent_loop) }}
             </ul>
             {% endif %}
