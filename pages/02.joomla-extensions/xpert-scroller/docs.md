@@ -1,3 +1,10 @@
+---
+title: Xpert Scroller
+taxonomy:
+    category: docs
+visible: true
+---
+
 ##Before you begin
 Xpert Scroller doesn't work without some content, so the first thing you will need to do is create some articles or K2 items. If you have a Expert Explorer package that includes Xpert Scroller, you can view the demo content for an example.
 
