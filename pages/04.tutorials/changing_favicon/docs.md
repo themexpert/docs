@@ -13,4 +13,4 @@ To change your site favicon please follow these steps
 
 ![Favicon changing](favicon.png)
 
-To add favicon in joomla site this [Blog](http://www.themexpert.com/index.php?option=com_easydiscuss&view=post&id=6195&Itemid=146) will be helpful.
+To add favicon in joomla site this [Blog](http://www.themexpert.com/blog/how-to-add-favicon-in-joomla-website) will be helpful.
