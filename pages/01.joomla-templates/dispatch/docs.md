@@ -7,7 +7,7 @@ visible: true
 
 ##Installation
 ----------
-Follow [fresh installation guideline](http://www.themexpert.com/documentation/expose-framework/getting-started) if you are having problem to install template.
+Follow [fresh installation guideline](http://www.themexpert.com/docs/expose/basics/installation) if you are having problem to install template.
 
 
 <div class="row">
@@ -18,7 +18,7 @@ Follow [fresh installation guideline](http://www.themexpert.com/documentation/ex
 
   <!-- List group -->
   <div class="list-group">
-    <div><a class="list-group-item" href="http://www.themexpert.com/joomla/extensions/xpert-captions">Xpert Captions</a></div>
+    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-captions">Xpert Captions</a></div>
     <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-tabs">Xpert Tabs</a></div>
     <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-scroller">Xpert Scroller</a></div>
   </div>
@@ -44,7 +44,7 @@ Dispatch Homepage fully based on modules, and we turned on component disable for
 ```Extensions → Template Manager → Tx_Parallax → Advance```
 And turn on `Component Disable` option and enter your Home page menu id.
 
-![Component disable option](component-disable.jpg)
+![Component disable option](show_component_option.jpg)
 
 The screenshot below shows you the modules we have published on the homepage of the demo site.
 

@@ -7,7 +7,7 @@ visible: true
 
 ## Installation
 
-Follow [fresh installation guideline](index.php?option=com_k2&amp;view=itemlist&amp;task=category&amp;id=8:getting-started&amp;Itemid=258) if you are having problem to install template.
+Follow [fresh installation guideline](http://www.themexpert.com/docs/expose/basics/installation) if you are having problem to install template.
 
 <div class="row">
 	<div class="col-md-6">
@@ -16,7 +16,7 @@ Follow [fresh installation guideline](index.php?option=com_k2&amp;view=itemlist&
 		  <div class="panel-heading">Complimentary Extensions</div>
 		  <!-- List group -->
 		  <div class="list-group">
-		    <div><a class="list-group-item" href="http://www.themexpert.com/joomla/extensions/xpert-gallery">Xpert Gallery</a></div>
+		    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-gallery">Xpert Gallery</a></div>
 		    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-tweets">Xpert Tweets</a></div>
 		    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-countdown">Xpert Countdown</a></div>	
 		    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-timeline">Xpert Timeline</a></div>	    

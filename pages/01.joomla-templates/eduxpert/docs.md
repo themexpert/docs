@@ -8,7 +8,7 @@ visible: true
 <h2>Installation</h2>
 
 ----------
-Follow [fresh installation guideline](http://www.themexpert.com/documentation/expose-framework/getting-started) if you are having problem to install template.
+Follow [fresh installation guideline](http://www.themexpert.com/docs/expose/basics/installation) if you are having problem to install template.
 
 
 <div class="row">
