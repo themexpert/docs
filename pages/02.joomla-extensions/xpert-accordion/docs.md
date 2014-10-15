@@ -49,7 +49,7 @@ Once you have your selection of content ready, you can then start to work with X
 **Featured Articles :** You can disable showing featured article or featured article only.
 
 ##K2 Article Settings
-![K2](K2.jpg)
+![K2](k2.jpg)
 
 **Category Filter :** Select all or specific category.
 

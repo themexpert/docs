@@ -27,14 +27,14 @@ To get this module working you should create a Twitter app to get the consumer k
 
 4.Fill up the application form and submit
 
-![API Step](api3.jpg)
+![API Step-2](api2.jpg)
 
 5.You can see *consumer key* and *consumer secret* codes. Copy the codes to modules respective field. Then click the *Create my access token* button.
 
-![API Step](api4.jpg)
+![API Step](api3.jpg)
 
 6.Now you can see the *access token* and *access token secret* codes. Copy the codes to module's respective field.
-![API Step](api5.jpg)
+![API Step](api4.jpg)
 
 <div class="alert alert-info">
 <strong>Heads up!</strong>
