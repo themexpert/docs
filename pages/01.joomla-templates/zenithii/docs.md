@@ -7,7 +7,7 @@ visible: true
 
 ##Installation
 ----------
-Follow [fresh installation guideline](http://www.themexpert.com/documentation/expose-framework/getting-started) if you are having problem to install template.
+Follow [fresh installation guideline](http://www.themexpert.com/docs/expose/basics/installation) if you are having problem to install template.
 
 
 <div class="row">
@@ -58,7 +58,8 @@ The screenshot below shows you the modules we have published on the homepage of 
 This module is powered by our Xpert Gallery and here are the settings.
 
 ![Sample Image](xpertgallery.jpg)
-<h2 id="tabs_settings">Tabs Settings</h2>
+
+##Tabs Settings</h2>
 
 ----------
 We've used Xpert Tabs module here, have a look on the settings.

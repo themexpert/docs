@@ -7,7 +7,7 @@ visible: true
 
 ##Installation
 ----------
-Follow [fresh installation guideline](http://www.themexpert.com/documentation/expose-framework/getting-started) if you are having problem to install template.
+Follow [fresh installation guideline](http://www.themexpert.com/docs/expose/basics/installation) if you are having problem to install template.
 
 
 <div class="row">
@@ -84,7 +84,7 @@ Module Position: Utility-1
 
 ![Sample Image](latest-news.jpg)
 
-<h2 id="editor-choice_settings">Editor's Choice Settings</h2>
+##Editor's Choice Settings
 
 ----------
 This module is powered by our Xpert Contents and here are the settings.

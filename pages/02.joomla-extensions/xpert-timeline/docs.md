@@ -9,7 +9,7 @@ visible: true
 Xpert Timeline module allows you to display Timeline from Google Spreadsheet. You can create your own gorgeous timeline easily, using nothing more than a Google spreadsheet.
 
 ## How to Build and Embed Spreadsheet
-**Building Spreadsheet :** Build a new Google Spreadsheet using [This template] (https://drive.google.com/previewtemplate?id=0AppSVxABhnltdEhzQjQ4MlpOaldjTmZLclQxQWFTOUE&mode=public). Drop dates, text and links to media into the appropriate columns.
+**Building Spreadsheet :** Build a new Google Spreadsheet using [This template](https://drive.google.com/previewtemplate?id=0AppSVxABhnltdEhzQjQ4MlpOaldjTmZLclQxQWFTOUE&mode=public). Drop dates, text and links to media into the appropriate columns.
 
 *Note: Don't change the column headers, don't remove any columns, and don't leave any blank rows in your spreadsheet*
 

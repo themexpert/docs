@@ -1,5 +1,5 @@
 ---
-title: Xpert Caption
+title: Xpert Captions
 taxonomy:
     category: docs
 visible: true

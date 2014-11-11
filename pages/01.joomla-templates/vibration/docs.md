@@ -8,7 +8,7 @@ visible: true
 
 ##Installation
 ----------
-Follow [fresh installation guideline](http://www.themexpert.com/documentation/expose-framework/getting-started) if you are having problem to install template.
+Follow [fresh installation guideline](http://www.themexpert.com/docs/expose/basics/installation) if you are having problem to install template.
 
 
 <div class="row">
@@ -44,6 +44,7 @@ To load factory settings of this template please open template settings and clic
 ![Sample Image](load-configuration.png)
 
 ##Homepage Settings
+----------
 Vibration's Homepage fully based on modules, and we turned on component disable for the Homepage, to do this go to 
 ```Extensions → Template Manager → Tx_Vibration → Advance```
 
@@ -106,10 +107,10 @@ This module is powered by our Xpert Tweets and here is the settings.
 
 ##VM Product Module settings
 
-![Xpert tweets settings](vm-product-basic.jpg)
-![Xpert tweets settings](vm-product-advance.jpg)
+![VM product basic settings](vm-product-basic.jpg)
+![VM product advance settings](vm-product-advance.jpg)
 
 
 ##VM Category Module settings
 
-![Xpert tweets settings](vm-category.jpg)
+![VM category settings](vm-category.jpg)

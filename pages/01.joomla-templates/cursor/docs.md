@@ -7,22 +7,23 @@ visible: true
 
 ##Installation
 ----------
-Follow [fresh installation guideline](http://www.themexpert.com/documentation/expose-framework/getting-started) if you are having problem to install template.
+Follow [fresh installation guideline](http://www.themexpert.com/docs/expose/basics/installation) if you are having problem to install template.
 
 
 <div class="row">
 	<div class="col-md-12">
 		<div class="panel panel-primary">
-  <!-- Default panel contents -->
-  <div class="panel-heading">Complimentary Extensions</div>
+    
+      <!-- Default panel contents -->
+      <div class="panel-heading">Complimentary Extensions</div>
 
-  <!-- List group -->
-  <div class="list-group">
-    <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-scroller">Xpert Scroller</a></div>
-  </div>
-</div>
+      <!-- List group -->
+      <div class="list-group">
+        <div><a class="list-group-item" href="http://www.themexpert.com/joomla-extensions/xpert-scroller">Xpert Scroller</a></div>
+      </div>
+
+    </div>
 	</div>
-
 </div>
 
 ##Template Settings
