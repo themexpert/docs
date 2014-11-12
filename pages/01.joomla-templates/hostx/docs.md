@@ -253,7 +253,7 @@ Class Suffix: .align-center
 
 ```
 
-## Follow/Blog/Support Module
+## Support Module
 
 ```
 Module Type: Custom HTML

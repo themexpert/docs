@@ -1,5 +1,5 @@
 ---
-title: delicious
+title: Delicious
 taxonomy:
     category: docs
 visible: true
