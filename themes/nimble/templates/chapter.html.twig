@@ -7,6 +7,16 @@
 			<p>
 				{{ page.content }}
 			</p>
+			<h2>Chapter Navigation</h2>
+			<div class="chapters">
+				{% for p in page.children %}
+					<h3 class="chapter">
+						<a href="{{ p.url }}">
+							<span class="fa fa-file-text-o"></span>{{ p.menu }}
+						</a>
+					</h3>
+				{% endfor %}
+			</div>
 		</div>
 		{% block footer %}
 		<blockquote id="github-contrib">
