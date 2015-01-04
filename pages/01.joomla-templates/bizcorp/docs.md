@@ -254,7 +254,6 @@ Class Suffix: clients hidden-phone
 
 ## Our Works/Xpert Gallery Settings
 
-```
 Data Center Page is powered by our [Xpert Gallery](http://www.themexpert.com/docs/joomla-extensions/xpert-gallery) and here are the settings.
 
 ```
