@@ -156,6 +156,15 @@ Class Suffix: tabs nomargin nopadding
 
 ![Xpert settings](xtabs-gen.png)
 
+
+### Module Settings
+
+![Xpert settings](xtabs-mod.png)
+
+### Advance Settings
+
+![Xpert settings](xtabs-adv.png)
+
 ```
 
 ## Pricing Table Module
@@ -212,52 +221,6 @@ Class Suffix: .align-center
 
 ```
 
-## Support Module
-
-```
-Module Type: Custom HTML
-Module Position: support
-Class Suffix: .support .align-center
-```
-```
-
-<a class="btn btn-primary wow animation-fade" href="index.php/blog">VIEW BLOG POSTS</a>
-
-<div class="clearfix">
-	
-	<div class="width-33">
-<div class="support-wrapper">
-
-<img src="images/support/chat.png" alt="" />
-<h3>CHAT SUPPORT</h3>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-
-</div>
-</div>
-
-<div class="width-33">
-<div class="support-wrapper wow animation-slide-bottom" data-wow-delay="0.2s">
-
-<img src="images/support/forum.png" alt="" />
-<h3>FORUM SUPPORT</h3>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-
-</div>
-</div>
-
-<div class="width-33">
-<div class="support-wrapper wow animation-slide-bottom" data-wow-delay="0.5s">
-
-<img src="images/support/quick.png" alt="" />
-<h3>QUICK SUPPORT</h3>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-
-</div>
-</div>
-	
-</div>
-
-```
 
 ## Data Center Page/Xpert Gallery Settings
 
