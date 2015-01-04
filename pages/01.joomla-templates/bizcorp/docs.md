@@ -167,65 +167,108 @@ Class Suffix: tabs nomargin nopadding
 
 ```
 
-## Pricing Table Module
+## Counter Module
 
-We've used Xpert Tabs with Custom HTML modules to show Pricing Table section.
+```
+Module Type: Custom HTML
+Module Position: utility
+Class Suffix: align-center counter hidden-phone
+```
+```
+<div class="width-25">
+	<div class="counter-wrapper">
+		<span class="icon bc-anchor"></span>
+		<h3>Awesome Themes</h3>
+		<span class="counter">55</span>
+	</div>
+</div>
 
-	Module Position: Pricing Table
+<div class="width-25">
+	<div class="counter-wrapper">
+		<span class="icon bc-tools-2"></span>
+		<h3>Useful Extensions</h3>
+		<span class="counter">17</span>
+	</div>
+</div>
 
+<div class="width-25">
+	<div class="counter-wrapper">
+		<span class="icon bc-profile-male"></span>
+		<h3>Team Members</h3>
+		<span class="counter">22</span>
+	</div>
+</div>
 
-![Xpert Tabs settings](xpert-tabs.jpg)
+<div class="width-25">
+	<div class="counter-wrapper">
+		<span class="icon bc-heart"></span>
+		<h3>Loyal Clients</h3>
+		<span class="counter">58711</span>
+	</div>
+</div>
 
+```
 
 
 ## Testimonial Module
 
 We've used RokSprocket module to show Testimonial section.
 
-	Module Position: Feature
-    Class Suffix: .align-center
+	Module Position: Testimonial
+    Class Suffix: testimonial align-center
 
 
 ![Testimonial settings](roksprocket.png)
 
-## Precious Clients Module
+## Clients Module
 
 ```
 Module Type: Custom HTML
-Module Position: main-top
-Class Suffix: .align-center
+Module Position: clients
+Class Suffix: clients hidden-phone
 
 ```
 ```
-<div class="clients-wrapper clearfix">
-	<div class="width-20">
-	<img src="images/clients/img1.png" alt="" />
+<div class="width-20">
+	<a href="#"><img src="images/clients/img1.jpg" alt="" /></a>
 </div>
 
-<div class="width-20 wow animation-slide-bottom animated" data-wow-delay="0.2s">
-	<img src="images/clients/img2.png" alt="" />
+<div class="width-20">
+	<a href="#"><img src="images/clients/img2.jpg" alt="" /></a>
 </div>
 
-<div class="width-20 wow animation-slide-bottom animated" data-wow-delay="0.5s">
-	<img src="images/clients/img3.png" alt="" />
+<div class="width-20">
+	<a href="#"><img src="images/clients/img3.jpg" alt="" /></a>
 </div>
 
-<div class="width-20 wow animation-slide-bottom animated" data-wow-delay="0.8s">
-	<img src="images/clients/img4.png" alt="" />
+<div class="width-20">
+	<a href="#"><img src="images/clients/img4.jpg" alt="" /></a>
 </div>
 
-<div class="width-20 wow animation-slide-bottom animated" data-wow-delay="1.1s">
-	<img src="images/clients/img5.png" alt="" />
+<div class="width-20">
+	<a href="#"><img src="images/clients/img5.jpg" alt="" /></a>
 </div>
-</div>
+
 
 ```
 
 
-## Data Center Page/Xpert Gallery Settings
+## Our Works/Xpert Gallery Settings
 
 Data Center Page is powered by our [Xpert Gallery](http://www.themexpert.com/docs/joomla-extensions/xpert-gallery) and here are the settings.
 
-	Module Position: call-to-action
+```
+Module Type: Xpert Gallery
+Module Position: works
+Class Suffix: align-center nopadding nomargin
 
-![Xpert Gallery settings](xpert-gallery.jpg)
+```
+```
+### General Settings
+![Xpert Gallery settings](xgal-gen.png)
+
+### Article Settings
+![Xpert Gallery settings](xgal-art.png)
+
+### Advance Settings
+![Xpert Gallery settings](xgal-adv.png)
