@@ -146,12 +146,12 @@ Nulla sagittis convallis arcu. Sed sed nunc. Curabitur consequat. Quisque metus 
 
 
 ## Xpert Tabs Settings
-This module is powered by our [Xpert Tabs](http://www.unitecms.net/joomla-extensions/unite-revolution-slider-responsive) and here are the settings.
+This module is powered by our [Xpert Tabs](http://www.themexpert.com/joomla-extensions/xpert-tabs) and here are the settings.
 ```
 Module Position: header
 Class Suffix: tabs nomargin nopadding
 ```
-```
+
 ### General Settings
 
 ![Xpert settings](xtabs-gen.png)
@@ -165,10 +165,9 @@ Class Suffix: tabs nomargin nopadding
 
 ![Xpert settings](xtabs-adv.png)
 
-```
+
 
 ## Counter Module
-
 ```
 Module Type: Custom HTML
 Module Position: utility
@@ -262,7 +261,7 @@ Module Position: works
 Class Suffix: align-center nopadding nomargin
 
 ```
-```
+
 ### General Settings
 ![Xpert Gallery settings](xgal-gen.png)
 
@@ -272,7 +271,7 @@ Class Suffix: align-center nopadding nomargin
 ### Advance Settings
 ![Xpert Gallery settings](xgal-adv.png)
 
-```
+
 ```
 
 Module Type: Custom HTML
