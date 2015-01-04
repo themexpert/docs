@@ -252,7 +252,6 @@ Class Suffix: clients hidden-phone
 
 ```
 
-
 ## Our Works/Xpert Gallery Settings
 
 Data Center Page is powered by our [Xpert Gallery](http://www.themexpert.com/docs/joomla-extensions/xpert-gallery) and here are the settings.
@@ -272,3 +271,295 @@ Class Suffix: align-center nopadding nomargin
 
 ### Advance Settings
 ![Xpert Gallery settings](xgal-adv.png)
+
+```
+Module Type: Custom HTML
+Module Position: Team
+Class Suffix: team
+```
+```
+<div class="width-33">
+  <div class= "width-50 arrow-right">
+    <img src="images/team/img1.jpg" alt="" />
+  </div>
+  
+  <div class= "width-50">
+    <div class="details">
+      <p>
+        <span class="position">
+          CEO
+        </span>
+      </p>
+      <p>
+        <span class="name">
+          Parvez Akhter
+        </span>
+      </p>
+      <ul class="social-icons clearfix">
+        <li class="twitter">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-twitter">
+            </i>
+          </a>
+        </li>
+        <li class="facebook">
+          <a href="http://www.facebook.com/ThemeXpert" target="_blank">
+            <i class="bc-facebook">
+            </i>
+          </a>
+        </li>
+        <li class="gplus">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-googleplus">
+            </i>
+          </a>
+        </li>
+        <li class="lin">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-linkedin">
+            </i>
+          </a>
+        </li>
+      </ul>
+	</div>
+  </div>
+</div>
+
+<div class="width-33">
+  <div class= "width-50 arrow-right">
+    <img src="images/team/img2.jpg" alt="" />
+  </div>
+  
+  <div class= "width-50">
+    <div class="details">
+      <p>
+        <span class="position">
+          COO
+        </span>
+      </p>
+      <p>
+        <span class="name">
+          Shamim Choudhury
+        </span>
+      </p>
+      <ul class="social-icons clearfix">
+        <li class="twitter">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-twitter">
+            </i>
+          </a>
+        </li>
+        <li class="facebook">
+          <a href="http://www.facebook.com/ThemeXpert" target="_blank">
+            <i class="bc-facebook">
+            </i>
+          </a>
+        </li>
+        <li class="gplus">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-googleplus">
+            </i>
+          </a>
+        </li>
+        <li class="lin">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-linkedin">
+            </i>
+          </a>
+        </li>
+      </ul>
+	</div>
+  </div>
+</div>
+
+<div class="width-33">
+  <div class= "width-50 arrow-right">
+    <img src="images/team/img3.jpg" alt="" />
+  </div>
+  
+  <div class= "width-50">
+    <div class="details">
+      <p>
+        <span class="position">
+          Developer
+        </span>
+      </p>
+      <p>
+        <span class="name">
+          Moh. Musharrof
+        </span>
+      </p>
+      <ul class="social-icons clearfix">
+        <li class="twitter">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-twitter">
+            </i>
+          </a>
+        </li>
+        <li class="facebook">
+          <a href="http://www.facebook.com/ThemeXpert" target="_blank">
+            <i class="bc-facebook">
+            </i>
+          </a>
+        </li>
+        <li class="gplus">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-googleplus">
+            </i>
+          </a>
+        </li>
+        <li class="lin">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-linkedin">
+            </i>
+          </a>
+        </li>
+      </ul>
+	</div>
+  </div>
+</div>
+
+
+<div class="width-33">
+  
+  <div class= "width-50">
+    <div class="details">
+      <p>
+        <span class="position">
+          Developer
+        </span>
+      </p>
+      <p>
+        <span class="name">
+          Shuvo Musa
+        </span>
+      </p>
+      <ul class="social-icons clearfix">
+        <li class="twitter">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-twitter">
+            </i>
+          </a>
+        </li>
+        <li class="facebook">
+          <a href="http://www.facebook.com/ThemeXpert" target="_blank">
+            <i class="bc-facebook">
+            </i>
+          </a>
+        </li>
+        <li class="gplus">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-googleplus">
+            </i>
+          </a>
+        </li>
+        <li class="lin">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-linkedin">
+            </i>
+          </a>
+        </li>
+      </ul>
+	</div>
+  </div>
+  <div class= "width-50 arrow-left">
+    <img src="images/team/img4.jpg" alt="" />
+  </div>
+  
+</div>
+
+<div class="width-33">
+  
+  <div class= "width-50">
+    <div class="details">
+      <p>
+        <span class="position">
+          Designer
+        </span>
+      </p>
+      <p>
+        <span class="name">
+          Anamoul Rouf
+        </span>
+      </p>
+      <ul class="social-icons clearfix">
+        <li class="twitter">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-twitter">
+            </i>
+          </a>
+        </li>
+        <li class="facebook">
+          <a href="http://www.facebook.com/ThemeXpert" target="_blank">
+            <i class="bc-facebook">
+            </i>
+          </a>
+        </li>
+        <li class="gplus">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-googleplus">
+            </i>
+          </a>
+        </li>
+        <li class="lin">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-linkedin">
+            </i>
+          </a>
+        </li>
+      </ul>
+	</div>
+  </div>
+  <div class= "width-50 arrow-left">
+    <img src="images/team/img5.jpg" alt="" />
+  </div>
+  
+</div>
+
+<div class="width-33">
+  
+  <div class= "width-50">
+    <div class="details">
+      <p>
+        <span class="position">
+          Technical Writer
+        </span>
+      </p>
+      <p>
+        <span class="name">
+          Ahmed Eshaan
+        </span>
+      </p>
+      <ul class="social-icons clearfix">
+        <li class="twitter">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-twitter">
+            </i>
+          </a>
+        </li>
+        <li class="facebook">
+          <a href="http://www.facebook.com/ThemeXpert" target="_blank">
+            <i class="bc-facebook">
+            </i>
+          </a>
+        </li>
+        <li class="gplus">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-googleplus">
+            </i>
+          </a>
+        </li>
+        <li class="lin">
+          <a href="http://www.twitter.com/ThemeXpert" target="_blank">
+            <i class="bc-linkedin">
+            </i>
+          </a>
+        </li>
+      </ul>
+	</div>
+  </div>
+  <div class= "width-50 arrow-left">
+    <img src="images/team/img6.jpg" alt="" />
+  </div>
+  
+</div>
