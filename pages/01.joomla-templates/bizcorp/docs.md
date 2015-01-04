@@ -254,6 +254,7 @@ Class Suffix: clients hidden-phone
 
 ## Our Works/Xpert Gallery Settings
 
+```
 Data Center Page is powered by our [Xpert Gallery](http://www.themexpert.com/docs/joomla-extensions/xpert-gallery) and here are the settings.
 
 ```
@@ -273,6 +274,8 @@ Class Suffix: align-center nopadding nomargin
 ![Xpert Gallery settings](xgal-adv.png)
 
 ```
+```
+
 Module Type: Custom HTML
 Module Position: Team
 Class Suffix: team
