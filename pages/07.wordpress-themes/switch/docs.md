@@ -112,6 +112,8 @@ when you install the theme it requires a plugin called contact form 7. Just inst
 
 ![contact form Image](img-16.png)
 
+Thanks for using Our Template
+
 
 
 
