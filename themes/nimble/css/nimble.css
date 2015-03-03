@@ -133,6 +133,7 @@ pre {
 }
 .main img {
   max-width: 100%;
+  margin: 10px 0;
 }
 .main .main-inner {
   background: #fff;
