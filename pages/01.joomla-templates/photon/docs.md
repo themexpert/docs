@@ -1,5 +1,5 @@
 ---
-title: Switch
+title: Photon
 taxonomy:
     category: docs
 visible: true
@@ -46,7 +46,7 @@ The screenshot below shows you the modules we have published on the homepage of 
 
 ##Scrollspy Effect
 ----------
-In Switch we've implemented Scrollspy which listens to page scrolling and triggers events based on the scroll position. For example, if you scroll down a page and an element appears for the first time in the viewport you can trigger a smooth animation to fade in the element.
+In Photon we've implemented Scrollspy which listens to page scrolling and triggers events based on the scroll position. For example, if you scroll down a page and an element appears for the first time in the viewport you can trigger a smooth animation to fade in the element.
 
 ###Available Effects
 - Fade
