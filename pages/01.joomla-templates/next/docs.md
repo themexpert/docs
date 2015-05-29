@@ -94,3 +94,24 @@ Class Suffix: box2
 ```
 
 ![Editor's Pick Module settings](editor-pick.jpg)
+
+## Breaking News Module
+
+We've used our Xpert Scroller module here and let's have a look on the settings.
+
+```
+Module Position: Top-2
+Class Suffix: newsticker
+```
+
+![Newsticker Module Settings](newsticker.jpg)
+
+## Bottom position scroller Module
+
+This scroller module is made by our Xpert Scroller, here are the settings at a glance.
+
+```
+Module Position: Bottom-1
+```
+
+![Scroller Settings](scroller.jpg)
