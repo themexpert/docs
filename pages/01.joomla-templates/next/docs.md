@@ -112,6 +112,7 @@ This scroller module is made by our Xpert Scroller, here are the settings at a g
 
 ```
 Module Position: Bottom-1
+Class Suffix: box2
 ```
 
 ![Scroller Settings](scroller.jpg)
