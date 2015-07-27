@@ -21,7 +21,7 @@ The beautiful news WordPress theme is neat and clean, well-equipped with innumer
 
 ## Installation
 
-Follow our [installation guideline](../installation) if you are having problem to install template.
+Follow our [installation guideline](../installation) if you are having problem to install the theme.
 
 ## Homepage Settings (Without Installing Demo Data)
 
@@ -329,7 +329,7 @@ The sidebar areas are used to display the widgets in the secondary column. Check
 To get the image sidebar like our demo site, please add the following widget with content and setting, I am going to describe you.
 
 ### Sidebar–  Ads Banner (Position 1,3,5)
-*__Step 01__*
+*__Step 01__*  
 Go to `Dashboard >> Media >> Add New`
 
 *__Back-end Settings__*
@@ -337,7 +337,7 @@ Go to `Dashboard >> Media >> Add New`
 - Upload Image or select existing One
 - Copy the link of the image
 
-*__Step 02__*
+*__Step 02__*  
 Head over WordPress `Administration >> Appearance >> Widgets` Click and drag Text Widget to Sidebar.
 
 After that use the HTML code below , paste them into Text widget to display the image and the recommend size for the image on the ads banner is `370 x 370`
@@ -427,3 +427,9 @@ __Backend View of Text: Subscribe Newsletter__
 
 __Frontend View__  
 ![Footer2 section Front](footer3-front.png)
+
+## Customizer Settings
+
+There are several customizing options in theme customizer like Logo settings, Presets, Social Links etc, to get those settings go to `Administrator >> Appearance >> Customize`
+
+![Customizer Options](customizer.jpg)

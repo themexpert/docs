@@ -11,130 +11,192 @@ This beautiful news WordPress theme is neat and clean, well-equipped with innume
 
 ## Installation
 
-Installing Egan WordPress theme is the same as the other, you can either install via FTP or WordPress uploader from wordpress backend.
-
-If you don’t have WordPress install in your server, you can install our QuickStart pack, that are incorporated with required dependency like plugins, demo data, every wordpress itself. Just download the quickstart zip file and you are ready to go.
-
-## Install Tx Egan via FTP
-
-*__Step 01 -__* Download the zip file of Egan theme titled Egan_UNZIPFIRST.zip, make sure you have properly extracted the theme. Remember only extracted theme going works smartly in server. When you unzip the Egan_UNZIPFIRST.zip, Egan folder comes up. Get into the egan folder, you will find the following folder.
-
-- Licensing
-- Plugins
-- Quickstart
-- Themes
-
-*__Step 02 -__* Now open the Themes folder, extrect the tx-egan.zip file. Now Head over to the Hosting via FTP client, upload the extracted tx-egan theme in themes folder of WordPress via __WordPress >> wp-content >> themes__.
-
-*__Step 03 -__* When you’ve done, log in WordPress backend and activate Tx Egan Theme via __Dashboard >> Appearance >> Themes__
-
-## Plugins Installation
-
-After properly activating WordPress, you will be redirected to the welcome screen of Tx Egan theme, and notified with a massage to inform recommended and indispensable plugins. They are NewsKit, Max Mega Menu. 
-
-![image]
-The above message indicated that you can select buttons either. But click on the __Begin installing plugins__ install you all the plugins, not activate those. 
-
-![image]
-After checking all plugins, select install for apply dropdown, and click apply button. The subsequent step printed in the following. 
-
-![image]
-Now check again all available plugins, select Active from Apply dropdown, and click Apply. It will take couple of second to be installed.
-Note: You must install the required plugin and recommended depends on you choice. 
-
+Follow our [installation guideline](../installation) if you are having problem to install the theme.
 
 ## Homepage Settings (Without Installing Demo Data)
 
-*__Step 01 -__* If you want to install Tx Egan theme in your website except demo data,  you have to first create a page from __Admin Panel >> Pagers >>  Add New Page__. You can see in the image below I have created page called “Home”.
+*__Step 01__*  
+If you want to install Tx Next theme in your website except demo data,  you have to first create a page from `Admin Panel >> Pagers >>  Add New Page` You can see in the image below I have created page called “Home”. 
 
-## Template Settings
+![Create Page](create-page.png)
 
-To load factory settings of this template please open template settings and click `Configurator` button. Under `Load configuration` button you will see all available settings there and choose settings named as your template name. Then press load button and you&#39;re done!
+*__Step 02__*  
+When you have created your page, now its time change the page reading for Tx News. To change the page reading for newly created page head to the `Admin Panel >> Settings >> Reading` Check the box next to A static page (select below) under Front Pager display. and select your page in which you display Tx Next content. In my turn Its Home.
 
-![Load Configuration](load-configuration.png)
+![Front page display settings](frontpage-display.png)
 
-## Homepage Settings
+## Homepage Settings (After Installing Demo Data)
 
-The screenshot below shows you the modules we have published on the homepage of the demo site.
+After finishing all installation process, the very first setting, we recommend to define is Home Page. To have Homepage the same as Tx Next demo, change the following setting:
 
-![Next Homepage](home.jpg)
+- Head over to __Admin Panel >> Settings >> Reading__
+- Check the box next to __A static page (select below)__ under Front Pager display. Select __Homagepage 1__ under the Front Page title. Flip through the image below.
 
-## Layout Types
+![Front page display settings](frontpage-display.png)
 
-Next News provides two types of layout - Fixed & Fluid. To select the layout type please open template settings, click `Styles` tab and you'll see `Layout Type` select box. Choose your layout type and Save.
+## Layout Structure
 
-![Layout Type](layout-type.jpg)
+This screenshot will give a quick overview of the layout structure of Tx Next WordPress theme.
 
+![Home Layout Structure](home.jpg)
 
-## Slideshow Settings
+### Header Settings
 
-This slideshow is powered by our brand new TX Grid Slider module and here are the settings.
+The headers contains a couple of widget. To set the header as the Demo looks, please flip through the instruction carefully: 
+
+### Primary Menu Settings
+Navigate to `Dashboard >> Appearance >> Menus` and create the primary menu. The primary Menu Look like the following.
+
+![Primary Menu](primary-menu.jpg)
+
+__Frontend View__  
+![Primary Menu Frontend](primary-menu-front.jpg)
+
+### Max Mega Menu Theme Import
+
+Primary menu is using Max Mega Menu theme to give engaging megamenu. If you want to have menu like our Demo theme. Head over to `Dashboad >> Appearance >> Max Mega Menu >> Tools`. Open up  __max-megamenu.txt__ from Themes to dummy-data folder. Copy the entire code of max-megamenu.txt and paste it in __Import Theme__ text field.
+
+![Max Megamenu](max-megamenu.png)
+
+### Search box Settings
+
+Navigate to `Dashboard >> Appearance >> Widgets` and place the Search widget into Search box widget area.
+
+![Search](search.png)
+
+### Slideshow Settings
+
+Slide show is another interactive layout of Newskit. Just navigate to `Dashboard >> Appearance >> Widgets >> Slideshow`, then drag & drop Newskit into Slideshow as shown below:
+
+![Slideshow](slideshow.jpg)
+
+__Frontend View__  
+![Slideshow Frontend](slideshow-front.jpg)
+
+### Main Content – Newskit - Static Layout 1
+
+Navigate to `Dashboard >> Appearance >> Widgets >> Main Content`, drag & drop Newskit into Main Content.
+
+![NewsKit Static Layout 01](maincontent-st1.jpg)
+
+To show many Newskit( Static Layout 1) at the same time, Just drag & drop, Have a look on the image below we adjust ours.
+
+![MainContent widgets](maincontent-widgets1.png)
+
+__Frontend View__  
+![NewsKit Static Layout 01 Frontend](maincontent-st1-front.jpg)
+
+### Main Content –  Ads Banner
+
+*__Step 01__*  
+Go to `Dashboard >> Media >> Add New`
+
+Back-end Settings
+
+- Upload Image or select existing image
+- Copy the link of the image
+
+![Media Library](media1.png)
+
+*__Step 02__*  
+Head over WordPress `Administration >> Appearance >> Widgets`
+
+- Click and drag Text Widget to Main Content
+
+After that use the HTML code below , paste them into Text widget to display the image and the recommend size for the image on the ads banner is `770 x 140`
 
 ```
-Module Position: slider
-Class Suffix: nomargin hidden-phone
+<a href="http://www.themexpert.com/joomla-templates/spaghetti" target="_blank"><img src="Your_Image_source_goes_here" /></a>
 ```
 
-![TX Grid Slider settings](slideshow.jpg)
+__Frontend View__
 
-## Business Module
+![MainContent Ad](maincontent-ad1.png)
 
-We've used our Xpert Contents module here and have a look on the settings
+### Main Content – Newskit - Static Layout 2
 
+Navigate to `Dashboard >> Appearance >> Widgets > Main Content`, drag & drop Newskit into Main Content.
+
+![MainContent widgets](maincontent-st2.jpg)
+
+__Frontend View__
+
+![Maincontent Static Layout 02 Frontend](maincontent-st2-front.jpg)
+
+### Main Content – Newskit - Dynamic Layout 1
+
+Navigate to `Dashboard >> Appearance >> Widgets > Main Content`, drag & drop Newskit into Main Content.
+
+![MainContent widgets](maincontent-dy1.jpg)
+
+__Frontend View__
+
+![Maincontent Dynamic Layout 01 Frontend](maincontent-dy1-front.jpg)
+
+## Sidebar Setting
+
+The sidebar areas are used to display the widgets in the secondary column. To get the image sidebar like our demo site, please add the following widget with content and setting, I am going to describe you.
+
+### Sidebar – Newskit: Most Popular ( Static Layout 4 )
+
+Navigate to `Dashboard >> Appearance >> Widgets >> Sidebar` drag & drop Newskit into Sidebar.
+
+*__Backend Settings__*  
+![Sidebar Most Popular](sidebar-st4.jpg)
+
+__Frontend View__  
+![Sidebar Most Popular Front](sidebar-st4-front.jpg)
+
+### Sidebar–  Ads Banner (Position 1,3,5)
+*__Step 01__*  
+Go to `Dashboard >> Media >> Add New`
+
+- Upload Image or select existing One
+- Copy the link of the image
+
+*__Step 02__*  
+Head over WordPress `Administration >> Appearance >> Widgets` Click and drag Text Widget to Sidebar.
+
+After that use the HTML code below , paste them into Text widget to display the image and the recommend size for the image on the ads banner is `370 x 370`
 ```
-Module Position: contenttop-1
-Class Suffix: box1
-```
-![Business module settings](business.jpg)
-
-## Tech News Module
-
-This module is based on Xpert Contents, please look following settings to get a better idea.
-
-```
-Module Position: contenttop-1
-Class Suffix: box1 nomargin-bottom
-```
-![Tech News Module settings](tech-news.jpg)
-
-## Sports Module
-
-We've used our [Xpert Contents](http://www.themexpert.com/docs/joomla-extensions/xpert-contents) module here, have a look on the settings.
-
-	Module Position: contentbottom-1
-	Class Suffix: box1 nomargin-bottom
-
-![Sports Module settings](sports.jpg)
-
-## Editor's Pick Module
-
-This module is powered by our Xpert Contents and here are the settings.
-
-```
-Module Position: Sidebar-b
-Class Suffix: box2
-```
-
-![Editor's Pick Module settings](editor-pick.jpg)
-
-## Breaking News Module
-
-We've used our Xpert Scroller module here and let's have a look on the settings.
-
-```
-Module Position: Top-2
-Class Suffix: newsticker
-```
-
-![Newsticker Module Settings](newsticker.jpg)
-
-## Bottom position scroller Module
-
-This scroller module is made by our Xpert Scroller, here are the settings at a glance.
-
-```
-Module Position: Bottom-1
-Class Suffix: box2
+<a href="#"><img src="Your_Image_source_goes_here" /></a>
 ```
 
-![Scroller Settings](scroller.jpg)
+__Frontend View__  
+![Sidebar Ads widget](sidebar-ad.jpg)
+
+## Footer 1
+
+Head to `Administrator >> Appearance >> Widgets >> Footer 1` Find Text and Custom Menu Widget from the list of the Widgets, click and drag it to Footer 1.
+
+__Backend View__  
+![Footer1 section](footer1.jpg)
+
+__Frontend View__  
+![Footer1 section Front](footer1-front.jpg)
+
+## Footer 2
+
+Head to `Administrator >> Appearance >> Widgets >> Footer 2` Find Text and Custom Menu Widget from the list of the Widgets, click and drag it to Footer 2.
+
+__Backend View__  
+![Footer2 section](footer2.jpg)
+
+__Frontend View__  
+![Footer2 section Front](footer2-front.jpg)
+
+## Footer 3
+
+Head to `Administrator >> Appearance >> Widgets >> Footer 3` Find Text Widget from the list of the Widgets, click and drag it to Footer 3.
+
+__Backend View__  
+![Footer3 section](footer3.jpg)
+
+__Frontend View__  
+![Footer3 section Front](footer3-front.jpg)
+
+## Customizer Settings
+
+There are several customizing options in theme customizer like Logo settings, Presets, Social Links etc, to get those settings go to `Administrator >> Appearance >> Customize`
+
+![Customizer Options](customizer.jpg)
