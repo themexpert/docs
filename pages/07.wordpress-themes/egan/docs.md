@@ -79,10 +79,6 @@ Navigate to `Dashboard >> Appearance >> Widgets >> Main Content`, drag & drop Ne
 
 ![NewsKit Static Layout 01](maincontent-st1.jpg)
 
-To show many Newskit( Static Layout 1) at the same time, Just drag & drop, Have a look on the image below we adjust ours.
-
-![MainContent widgets](maincontent-widgets1.png)
-
 __Frontend View__  
 ![NewsKit Static Layout 01 Frontend](maincontent-st1-front.jpg)
 
